@@ -1,10 +1,10 @@
-# Supported expressions examples
+# expressions
 
 > Auto-generated documentation for [examples.expressions](../../examples/expressions.py) module.
 
 Test for [ExpressionAnalyzer](../fhdoc/ast_parser/analyzers/expression_analyzer.md#expressionanalyzer) test.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Supported expressions examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / expressions
 
 #### Attributes
 

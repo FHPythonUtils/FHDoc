@@ -11,6 +11,9 @@ from fhdoc.settings import ASSETS_PATH
 def make_title(file_stem):
 	# type: (Text) -> Text
 	"""
+	Whilst this all seems well and good, it produces unreliable module names
+	so I'm going to add an early return and add this note again inline
+
 	Convert `pathlib.Path` part or any other string to a human-readable title.
 	Replace underscores with spaces and capitalize result.
 
@@ -34,6 +37,15 @@ def make_title(file_stem):
 	Returns:
 		A human-readable title as a string.
 	"""
+	# Whilst this all seems well and good, it produces unreliable module names
+	# so I'm going to add an early return
+	if file_stem == "__main__":
+		return "\\_\\_main\\_\\_"
+
+	return file_stem
+
+	# Old Code - This works as intended
+	'''
 	if file_stem == "__main__":
 		return "Module"
 
@@ -46,6 +58,7 @@ def make_title(file_stem):
 		name_parts.append(name_part)
 
 	return " ".join(name_parts)
+	'''
 
 
 def render_asset(name, target_path, format_dict):
@@ -89,4 +102,5 @@ def extract_md_title(content):
 		title_line, content = content.split("\n", 1)
 		title = title_line.split(" ", 1)[-1]
 
-	return title, content
+	#return title, content
+	return "", content

@@ -1,8 +1,8 @@
-# PEP 287 - reStructuredText docstrings examples
+# rst_docstrings
 
 > Auto-generated documentation for [examples.rst_docstrings](../../examples/rst_docstrings.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 287 - reStructuredText docstrings examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / rst_docstrings
     - [Links](#links)
     - [RSTExample](#rstexample)
         - [RSTExample.reference](#rstexamplereference)

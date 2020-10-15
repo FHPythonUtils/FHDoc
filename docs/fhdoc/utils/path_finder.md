@@ -1,11 +1,11 @@
-# PathFinder
+# path_finder
 
 > Auto-generated documentation for [fhdoc.utils.path_finder](../../../fhdoc/utils/path_finder.py) module.
 
 Glob helper for matching paths inside `root` path with `.gitignore`-like
 `include` and `exclude` patterns.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [Utils](index.md#utils) / PathFinder
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / path_finder
     - [PathFinder](#pathfinder)
         - [PathFinder().exclude](#pathfinderexclude)
         - [PathFinder().glob](#pathfinderglob)

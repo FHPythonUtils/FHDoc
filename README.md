@@ -16,20 +16,28 @@
 
 Python docstring-based documentation generator for lazy perfectionists.
 
+Forked from vemel/handsdown
+
 - [🙌 FHDoc - Python documentation generator](#-fhdoc---python-documentation-generator)
 	- [Features](#features)
 	- [Do you need fhdoc?](#do-you-need-fhdoc)
 	- [Examples](#examples)
 	- [Usage](#usage)
 		- [💻 From command line](#-from-command-line)
-		- [📦 As a Docker image](#-as-a-docker-image)
-		- [📝 As a GitHub Pages manager](#-as-a-github-pages-manager)
+		- [� As a GitHub Pages manager](#-as-a-github-pages-manager)
 		- [🐏 Deploy on Read the Docs](#-deploy-on-read-the-docs)
 		- [📋 Build static HTML](#-build-static-html)
 		- [🧩 As a module](#-as-a-module)
 	- [Installation](#installation)
 	- [Development](#development)
-	- [Changelog](#changelog)
+	- [Community Files](#community-files)
+		- [Licence](#licence)
+		- [Changelog](#changelog)
+		- [Code of Conduct](#code-of-conduct)
+		- [Contributing](#contributing)
+		- [Security](#security)
+		- [Support](#support)
+		- [Rationale](#rationale)
 
 ## Features
 
@@ -40,11 +48,10 @@ Python docstring-based documentation generator for lazy perfectionists.
   docstrings support. All of them are converted to a valid Markdown.
 - Works with [Django](https://www.djangoproject.com/) and [Flask](https://palletsprojects.com/p/flask/) apps
 - Can be used locally, or
-  [right on GitHub](https://github.com/vemel/fhdoc/blob/master/docs/README.md) or even deployed on
-  [GitHub Pages](https://vemel.github.io/fhdoc/) and [Read the Docs](https://fhdoc.readthedocs.io/)!
+  [right on GitHub](https://github.com/FHPythonUtils/fhdoc/blob/master/DOCS/README.md) or even deployed on
 - Signatures for every class, function, property and method.
 - Support for type annotations. Even for the ones from the `__future__`!
-- Nice list of all modules in [Modules](https://github.com/vemel/fhdoc/blob/master/docs/MODULES.md)
+- Nice list of all modules in [Modules](https://github.com/FHPythonUtils/fhdoc/blob/master/DOCS/MODULES.md)
 - Gather all scattered `README.md` in submodules to one place
 - Find related source code from every doc section.
 - Make links by just adding `module.import.String` to docs.
@@ -65,19 +72,18 @@ And probably *do not* if you:
 
 - not very into docstrings and type annotations
 - like to abstract a documentation away from the way things really are
-- use [Pandas docstrings](https://pandas.pydata.org/pandas-docs/stable/development/contributing_docstring.html)
+- use [Pandas docstrings](https://pandas.pydata.org/pandas-DOCS/stable/development/contributing_docstring.html)
   as they are not supported yet
 
 ## Examples
 
-- [All documentation](https://vemel.github.io/fhdoc/) in this project
-- [Main](https://github.com/vemel/fhdoc/blob/master/examples/main_example.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/main_example.md)
-- [RST docstrings](https://github.com/vemel/fhdoc/blob/master/examples/rst_docstrings.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/rst_docstrings.md)
-- [Google docstrings](https://github.com/vemel/fhdoc/blob/master/examples/google_docstrings.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/google_docstrings.md)
-- [PEP 257 docstrings](https://github.com/vemel/fhdoc/blob/master/examples/pep257_docstrings.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/pep257_docstrings.md)
-- [Sphinx docstrings](https://github.com/vemel/fhdoc/blob/master/examples/sphinx_docstrings.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/sphinx_docstrings.md)
-- [Type annotations](https://github.com/vemel/fhdoc/blob/master/examples/typed.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/typed.md)
-- [Comment-style type annotations](https://github.com/vemel/fhdoc/blob/master/examples/comment_typed.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/comment_typed.md)
+- [Main](https://github.com/FHPythonUtils/fhdoc/blob/master/examples/main_example.py) with [generated output](https://github.com/FHPythonUtils/fhdoc/tree/master/DOCS/examples/main_example.md)
+- [RST docstrings](https://github.com/FHPythonUtils/fhdoc/blob/master/examples/rst_docstrings.py) with [generated output](https://github.com/FHPythonUtils/fhdoc/tree/master/DOCS/examples/rst_docstrings.md)
+- [Google docstrings](https://github.com/FHPythonUtils/fhdoc/blob/master/examples/google_docstrings.py) with [generated output](https://github.com/FHPythonUtils/fhdoc/tree/master/DOCS/examples/google_docstrings.md)
+- [PEP 257 docstrings](https://github.com/FHPythonUtils/fhdoc/blob/master/examples/pep257_docstrings.py) with [generated output](https://github.com/FHPythonUtils/fhdoc/tree/master/DOCS/examples/pep257_docstrings.md)
+- [Sphinx docstrings](https://github.com/FHPythonUtils/fhdoc/blob/master/examples/sphinx_docstrings.py) with [generated output](https://github.com/FHPythonUtils/fhdoc/tree/master/DOCS/examples/sphinx_docstrings.md)
+- [Type annotations](https://github.com/FHPythonUtils/fhdoc/blob/master/examples/typed.py) with [generated output](https://github.com/FHPythonUtils/fhdoc/tree/master/DOCS/examples/typed.md)
+- [Comment-style type annotations](https://github.com/FHPythonUtils/fhdoc/blob/master/examples/comment_typed.py) with [generated output](https://github.com/FHPythonUtils/fhdoc/tree/master/DOCS/examples/comment_typed.md)
 
 ## Usage
 
@@ -89,7 +95,7 @@ auto-generated docs and let `fhdoc` do the thing.
 ```bash
 cd ~/my/project
 
-# build documentation *.md* files in docs/* directory
+# build documentation *.md* files in DOCS/* directory
 fhdoc
 
 # or provide custom output directory: output_dir/*
@@ -102,30 +108,7 @@ fhdoc my_module --exclude my_module/migrations
 fhdoc --external `git config --get remote.origin.url` -n ProjectName
 ```
 
-Navigate to `docs/README.md` to check your new documentation!
-
-### 📦 As a Docker image
-
-- Install [Docker](https://docs.docker.com/install/)
-- Pull latest `fhdoc` version and tag it
-
-```bash
-docker pull docker.pkg.github.com/vemel/fhdoc/fhdoc:latest
-docker tag docker.pkg.github.com/vemel/fhdoc/fhdoc:latest fhdoc
-```
-
-- Generate docs for `ProjectName` in current directory
-
-```bash
-# for Python 3 project
-docker run -v `pwd`:/app fhdoc -n ProjectName
-
-# for Python 2 project
-PYTHON_VER=2 docker run -v `pwd`:/app fhdoc -n ProjectName
-
-# generate documentation for deployment
-docker run -v `pwd`:/app fhdoc --external `git config --get remote.origin.url` -n ProjectName
-```
+Navigate to `DOCS/README.md` to check your new documentation!
 
 ### 📝 As a GitHub Pages manager
 
@@ -148,7 +131,7 @@ fhdoc --external https://github.com/<user>/<project>/blob/master/
 - Commit and push all changes a to `master` branch.
 - Set your GitHub project `Settings` > `GitHub Pages` > `Source` to `master branch /docs folder`
 
-All set! You can change `docs/_config.yml` to add your own touch.
+All set! You can change `DOCS/_config.yml` to add your own touch.
 
 With `--external` flag links to your source are absolute and point to your GitHub repo. If you
 still want to have relative links to source, e.g. for using docs locally,
@@ -238,11 +221,6 @@ Install using `pip` from PyPI
 pip install fhdoc
 ```
 
-or directly from GitHub if you cannot wait to test new features
-
-```bash
-pip install git+https://github.com/vemel/fhdoc.git
-```
 
 ## Development
 
@@ -250,6 +228,40 @@ pip install git+https://github.com/vemel/fhdoc.git
 - Run `pipenv install -d`
 - Use `black` formatter in your IDE
 
-## Changelog
+## Community Files
+### Licence
+MIT License
+(See the [LICENSE](/LICENSE.md) for more information.)
 
-Changelog can be found in [Releases](https://github.com/vemel/fhdoc/releases)
+### Changelog
+See the [Changelog](/CHANGELOG.md) for more information.
+
+### Code of Conduct
+Online communities include people from many backgrounds. The *Project*
+contributors are committed to providing a friendly, safe and welcoming
+environment for all. Please see the
+[Code of Conduct](https://github.com/FHPythonUtils/.github/blob/master/CODE_OF_CONDUCT.md)
+ for more information.
+
+### Contributing
+Contributions are welcome, please see the
+[Contributing Guidelines](https://github.com/FHPythonUtils/.github/blob/master/CONTRIBUTING.md)
+for more information.
+
+### Security
+Thank you for improving the security of the project, please see the
+[Security Policy](https://github.com/FHPythonUtils/.github/blob/master/SECURITY.md)
+for more information.
+
+### Support
+Thank you for using this project, I hope it is of use to you. Please be aware that
+those involved with the project often do so for fun along with other commitments
+(such as work, family, etc). Please see the
+[Support Policy](https://github.com/FHPythonUtils/.github/blob/master/SUPPORT.md)
+for more information.
+
+### Rationale
+The rationale acts as a guide to various processes regarding projects such as
+the versioning scheme and the programming styles used. Please see the
+[Rationale](https://github.com/FHPythonUtils/.github/blob/master/RATIONALE.md)
+for more information.

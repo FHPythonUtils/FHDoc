@@ -1,10 +1,10 @@
-# BaseAnalyzer
+# base_analyzer
 
 > Auto-generated documentation for [fhdoc.ast_parser.analyzers.base_analyzer](../../../../fhdoc/ast_parser/analyzers/base_analyzer.py) module.
 
 Base AST analyzer.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Analyzers](index.md#analyzers) / BaseAnalyzer
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / base_analyzer
     - [BaseAnalyzer](#baseanalyzer)
 
 ## BaseAnalyzer

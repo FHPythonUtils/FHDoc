@@ -1,10 +1,10 @@
-# ModuleRecord
+# module_record
 
 > Auto-generated documentation for [fhdoc.ast_parser.node_records.module_record](../../../../fhdoc/ast_parser/node_records/module_record.py) module.
 
 Wrapper for an `ast.Module` node with corresponding node info.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Node Records](index.md#node-records) / ModuleRecord
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / module_record
     - [ModuleRecord](#modulerecord)
         - [ModuleRecord().build_children](#modulerecordbuild_children)
         - [ModuleRecord.create_from_source](#modulerecordcreate_from_source)
@@ -34,7 +34,7 @@ Responsible for parsing Python source as well.
 
 ### ModuleRecord().build_children
 
-[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L152)
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L153)
 
 ```python
 def build_children() -> None:
@@ -73,7 +73,7 @@ New [ModuleRecord](#modulerecord) instance.
 
 ### ModuleRecord().find_record
 
-[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L67)
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L68)
 
 ```python
 def find_record(import_string: ImportString) -> Optional[NodeRecord]:
@@ -96,7 +96,7 @@ Found child record on None.
 
 ### ModuleRecord().iter_records
 
-[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L87)
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L88)
 
 ```python
 def iter_records() -> Generator[NodeRecord, None, None]:

@@ -143,7 +143,7 @@ def parse_args(args):
 		"-o",
 		"--output-path",
 		help="Path to output folder",
-		default=Path.cwd() / "docs",
+		default=Path.cwd() / "DOCS",
 		type=dir_abs_path,
 	)
 	parser.add_argument(

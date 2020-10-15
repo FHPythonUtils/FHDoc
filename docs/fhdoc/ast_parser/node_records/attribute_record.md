@@ -1,10 +1,10 @@
-# AttributeRecord
+# attribute_record
 
 > Auto-generated documentation for [fhdoc.ast_parser.node_records.attribute_record](../../../../fhdoc/ast_parser/node_records/attribute_record.py) module.
 
 Wrapper for an `ast.Assign` node of a module or class attribute.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Node Records](index.md#node-records) / AttributeRecord
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / attribute_record
     - [AttributeRecord](#attributerecord)
         - [AttributeRecord().related_names](#attributerecordrelated_names)
 
@@ -29,7 +29,7 @@ Wrapper for an `ast.Assign` node of a module or class attribute.
 
 ### AttributeRecord().related_names
 
-[[find in source code]](../../../../fhdoc/ast_parser/node_records/attribute_record.py#L32)
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/attribute_record.py#L33)
 
 ```python
 @property

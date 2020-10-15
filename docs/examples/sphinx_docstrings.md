@@ -1,8 +1,8 @@
-# Sphinx docstrings examples
+# sphinx_docstrings
 
 > Auto-generated documentation for [examples.sphinx_docstrings](../../examples/sphinx_docstrings.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Sphinx docstrings examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / sphinx_docstrings
     - [Links](#links)
     - [RSTExample](#rstexample)
         - [RSTExample.directives_test](#rstexampledirectives_test)

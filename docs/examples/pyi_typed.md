@@ -1,8 +1,8 @@
-# Stub file type annotations examples
+# pyi_typed
 
 > Auto-generated documentation for [examples.pyi_typed](../../examples/pyi_typed.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Stub file type annotations examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / pyi_typed
     - [Links](#links)
     - [MyValue](#myvalue)
     - [func](#func)

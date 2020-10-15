@@ -1,10 +1,10 @@
-# MDDocument
+# md_document
 
 > Auto-generated documentation for [fhdoc.md_document](../../fhdoc/md_document.py) module.
 
 Markdown file builder.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Fhdoc](index.md#fhdoc) / MDDocument
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / md_document
     - [MDDocument](#mddocument)
         - [MDDocument().add_toc_if_not_exists](#mddocumentadd_toc_if_not_exists)
         - [MDDocument().append](#mddocumentappend)

@@ -1,10 +1,10 @@
-# ClassAnalyzer
+# class_analyzer
 
 > Auto-generated documentation for [fhdoc.ast_parser.analyzers.class_analyzer](../../../../fhdoc/ast_parser/analyzers/class_analyzer.py) module.
 
 AST analyzer for `ast.ClassDef` records.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Analyzers](index.md#analyzers) / ClassAnalyzer
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / class_analyzer
     - [ClassAnalyzer](#classanalyzer)
         - [ClassAnalyzer().generic_visit](#classanalyzergeneric_visit)
         - [ClassAnalyzer().visit_Assign](#classanalyzervisit_assign)

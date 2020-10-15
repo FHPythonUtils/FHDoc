@@ -1,10 +1,10 @@
-# DocstringFormatter
+# docstring_formatter
 
 > Auto-generated documentation for [fhdoc.utils.docstring_formatter](../../../fhdoc/utils/docstring_formatter.py) module.
 
 Translator of docstrings to Markdown format.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [Utils](index.md#utils) / DocstringFormatter
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / docstring_formatter
     - [DocstringFormatter](#docstringformatter)
         - [DocstringFormatter().render](#docstringformatterrender)
 

@@ -1,8 +1,8 @@
-# PEP 484 - comment-based type annotations examples
+# comment_typed
 
 > Auto-generated documentation for [examples.comment_typed](../../examples/comment_typed.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 484 - comment-based type annotations examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / comment_typed
     - [Links](#links)
     - [MyValue](#myvalue)
     - [Typed](#typed)

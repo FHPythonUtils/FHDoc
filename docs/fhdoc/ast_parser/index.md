@@ -1,18 +1,18 @@
-# AST Parser
+# ast_parser
 
 > Auto-generated documentation for [fhdoc.ast_parser](../../../fhdoc/ast_parser/__init__.py) module.
 
 Collection of tools for analyzing AST and also rendering it back to a valid Python code.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / AST Parser
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / ast_parser
     - [Usage](#usage)
         - [Examples](#examples)
     - Modules
-        - [Analyzers](analyzers/index.md#analyzers)
-        - [Enums](enums.md#enums)
-        - [ModuleRecordList](module_record_list.md#modulerecordlist)
-        - [Node Records](node_records/index.md#node-records)
-        - [Type Defs](type_defs.md#type-defs)
+        - [analyzers](analyzers/index.md#analyzers)
+        - [enums](enums.md#enums)
+        - [module_record_list](module_record_list.md#module_record_list)
+        - [node_records](node_records/index.md#node_records)
+        - [type_defs](type_defs.md#type_defs)
 
 ## Usage
 

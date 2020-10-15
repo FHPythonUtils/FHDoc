@@ -1,8 +1,8 @@
-# PEP 484 - type annotations examples
+# typed
 
 > Auto-generated documentation for [examples.typed](../../examples/typed.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 484 - type annotations examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / typed
     - [Links](#links)
     - [MyValue](#myvalue)
     - [Typed](#typed)

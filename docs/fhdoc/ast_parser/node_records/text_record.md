@@ -1,10 +1,10 @@
-# TextRecord
+# text_record
 
 > Auto-generated documentation for [fhdoc.ast_parser.node_records.text_record](../../../../fhdoc/ast_parser/node_records/text_record.py) module.
 
 Wrapper for a text-only `ast.expr` node.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Node Records](index.md#node-records) / TextRecord
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / text_record
     - [TextRecord](#textrecord)
         - [TextRecord().related_names](#textrecordrelated_names)
 

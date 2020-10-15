@@ -1,10 +1,10 @@
-# Settings
+# settings
 
 > Auto-generated documentation for [fhdoc.settings](../../fhdoc/settings.py) module.
 
 Various project constants.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Fhdoc](index.md#fhdoc) / Settings
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / settings
 
 #### Attributes
 

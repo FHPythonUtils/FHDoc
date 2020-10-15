@@ -1,10 +1,10 @@
-# ExpressionAnalyzer
+# expression_analyzer
 
 > Auto-generated documentation for [fhdoc.ast_parser.analyzers.expression_analyzer](../../../../fhdoc/ast_parser/analyzers/expression_analyzer.py) module.
 
 AST analyzer for `ast.expr` records.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Analyzers](index.md#analyzers) / ExpressionAnalyzer
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / expression_analyzer
     - [ExpressionAnalyzer](#expressionanalyzer)
         - [ExpressionAnalyzer().generic_visit](#expressionanalyzergeneric_visit)
         - [ExpressionAnalyzer().visit_Attribute](#expressionanalyzervisit_attribute)

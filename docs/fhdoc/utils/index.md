@@ -1,23 +1,23 @@
-# Utils
+# utils
 
 > Auto-generated documentation for [fhdoc.utils](../../../fhdoc/utils/__init__.py) module.
 
 Handful utils that do not deserve a separate module.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / Utils
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / utils
     - [extract_md_title](#extract_md_title)
     - [make_title](#make_title)
     - [render_asset](#render_asset)
     - Modules
-        - [DocstringFormatter](docstring_formatter.md#docstringformatter)
-        - [ImportString](import_string.md#importstring)
-        - [IndentTrimmer](indent_trimmer.md#indenttrimmer)
-        - [Logger](logger.md#logger)
-        - [PathFinder](path_finder.md#pathfinder)
+        - [docstring_formatter](docstring_formatter.md#docstring_formatter)
+        - [import_string](import_string.md#import_string)
+        - [indent_trimmer](indent_trimmer.md#indent_trimmer)
+        - [logger](logger.md#logger)
+        - [path_finder](path_finder.md#path_finder)
 
 ## extract_md_title
 
-[[find in source code]](../../../fhdoc/utils/__init__.py#L66)
+[[find in source code]](../../../fhdoc/utils/__init__.py#L79)
 
 ```python
 def extract_md_title(content: Text) -> Tuple[Text, Text]:
@@ -49,6 +49,9 @@ A tuple fo title and remaining content.
 def make_title(file_stem: Text) -> Text:
 ```
 
+Whilst this all seems well and good, it produces unreliable module names
+so I'm going to add an early return and add this note again inline
+
 Convert `pathlib.Path` part or any other string to a human-readable title.
 Replace underscores with spaces and capitalize result.
 
@@ -78,7 +81,7 @@ A human-readable title as a string.
 
 ## render_asset
 
-[[find in source code]](../../../fhdoc/utils/__init__.py#L51)
+[[find in source code]](../../../fhdoc/utils/__init__.py#L64)
 
 ```python
 def render_asset(

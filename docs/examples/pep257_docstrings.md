@@ -1,8 +1,8 @@
-# PEP 257 - PEP 257 and Google docstrings examples
+# pep257_docstrings
 
 > Auto-generated documentation for [examples.pep257_docstrings](../../examples/pep257_docstrings.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 257 - PEP 257 and Google docstrings examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / pep257_docstrings
     - [Links](#links)
     - [ClassExample](#classexample)
         - [ClassExample().method_example](#classexamplemethod_example)

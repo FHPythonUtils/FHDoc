@@ -1,10 +1,10 @@
-# Type Defs
+# type_defs
 
 > Auto-generated documentation for [fhdoc.ast_parser.type_defs](../../../fhdoc/ast_parser/type_defs.py) module.
 
 Different AST-related types collection.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [AST Parser](index.md#ast-parser) / Type Defs
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [ast_parser](index.md#ast_parser) / type_defs
 
 #### Attributes
 

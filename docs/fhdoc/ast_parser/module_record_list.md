@@ -1,10 +1,10 @@
-# ModuleRecordList
+# module_record_list
 
 > Auto-generated documentation for [fhdoc.ast_parser.module_record_list](../../../fhdoc/ast_parser/module_record_list.py) module.
 
 Aggregation of `ModuleRecord` objects.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [AST Parser](index.md#ast-parser) / ModuleRecordList
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [ast_parser](index.md#ast_parser) / module_record_list
     - [ModuleRecordList](#modulerecordlist)
         - [ModuleRecordList().\_\_iter\_\_](#modulerecordlist__iter__)
         - [ModuleRecordList().add](#modulerecordlistadd)

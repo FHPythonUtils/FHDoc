@@ -1,10 +1,10 @@
-# ExpressionRecord
+# expression_record
 
 > Auto-generated documentation for [fhdoc.ast_parser.node_records.expression_record](../../../../fhdoc/ast_parser/node_records/expression_record.py) module.
 
 Wrapper for an `ast.expr` node.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Node Records](index.md#node-records) / ExpressionRecord
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / expression_record
     - [ExpressionRecord](#expressionrecord)
         - [ExpressionRecord().related_names](#expressionrecordrelated_names)
 

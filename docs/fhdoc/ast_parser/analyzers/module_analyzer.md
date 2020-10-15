@@ -1,10 +1,10 @@
-# ModuleAnalyzer
+# module_analyzer
 
 > Auto-generated documentation for [fhdoc.ast_parser.analyzers.module_analyzer](../../../../fhdoc/ast_parser/analyzers/module_analyzer.py) module.
 
 AST analyzer for `ast.Module` records.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Analyzers](index.md#analyzers) / ModuleAnalyzer
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / module_analyzer
     - [ModuleAnalyzer](#moduleanalyzer)
         - [ModuleAnalyzer().visit_Assign](#moduleanalyzervisit_assign)
         - [ModuleAnalyzer().visit_AsyncFunctionDef](#moduleanalyzervisit_asyncfunctiondef)
@@ -48,7 +48,7 @@ Parses `__all__` and add all values to `all_names`
 
 ```python
 MY_MODULE_ATTR = 'value'
-    my_attr = "value"
+ my_attr = "value"
 __all__ = ['MyClass', 'my_func']
 
 # these entries are skipped
@@ -79,7 +79,7 @@ Skips nodes with names starting with `_`.
 
 ```python
 async def my_func(arg1):
-    return await arg1
+ return await arg1
 ```
 
 #### Arguments
@@ -103,7 +103,7 @@ Skips nodes with names starting with `_`.
 
 ```python
 class MyClass():
-    pass
+ pass
 ```
 
 #### Arguments
@@ -127,7 +127,7 @@ Skips nodes with names starting with `_`.
 
 ```python
 def my_func(arg1):
-    return arg1
+ return arg1
 ```
 
 #### Arguments

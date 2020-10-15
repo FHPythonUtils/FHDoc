@@ -1,10 +1,10 @@
-# Logger
+# logger
 
 > Auto-generated documentation for [fhdoc.utils.logger](../../../fhdoc/utils/logger.py) module.
 
 Utilities for stdout stream logger.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [Utils](index.md#utils) / Logger
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / logger
     - [get_logger](#get_logger)
 
 ## get_logger

@@ -1,10 +1,10 @@
-# reStructuredText Docstring Processor
+# rst
 
 > Auto-generated documentation for [fhdoc.processors.rst](../../../fhdoc/processors/rst.py) module.
 
 Docstring processor for restructured text docstring format.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [Processors](index.md#processors) / reStructuredText Docstring Processor
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / rst
     - [RSTDocstringProcessor](#rstdocstringprocessor)
 
 Supported features:

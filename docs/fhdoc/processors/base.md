@@ -1,10 +1,10 @@
-# Base Docstring Processor
+# base
 
 > Auto-generated documentation for [fhdoc.processors.base](../../../fhdoc/processors/base.py) module.
 
 Base class for all docstring processors:
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [Processors](index.md#processors) / Base Docstring Processor
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / base
     - [Links](#links)
     - [Supported features](#supported-features)
     - [BaseDocstringProcessor](#basedocstringprocessor)

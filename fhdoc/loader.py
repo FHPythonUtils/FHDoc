@@ -11,7 +11,6 @@ from fhdoc.utils.logger import get_logger
 from fhdoc.utils.import_string import ImportString
 
 if TYPE_CHECKING:  # pragma: no cover
-	import logging
 	from pathlib import Path
 
 

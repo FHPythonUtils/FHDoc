@@ -1,10 +1,10 @@
-# Smart Docstring Processor
+# smart
 
 > Auto-generated documentation for [fhdoc.processors.smart](../../../fhdoc/processors/smart.py) module.
 
 Docstring processor that selects a `DocstringProcessor` based on a docstring content:
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [Processors](index.md#processors) / Smart Docstring Processor
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / smart
     - [SmartDocstringProcessor](#smartdocstringprocessor)
         - [SmartDocstringProcessor().build_sections](#smartdocstringprocessorbuild_sections)
 

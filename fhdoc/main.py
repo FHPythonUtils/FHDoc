@@ -12,7 +12,6 @@ from fhdoc.utils import render_asset, make_title
 from fhdoc.utils.logger import get_logger
 from fhdoc.utils.path_finder import PathFinder
 from fhdoc.settings import SOURCES_GLOB, EXCLUDE_EXPRS
-from fhdoc.version import version
 
 
 if TYPE_CHECKING:  # pragma: no cover
@@ -53,9 +52,7 @@ def main():
 	Main entrypoint for CLI.
 	"""
 	args = parse_args(sys.argv[1:])
-	if args.version:
-		print(version)
-		return
+
 
 	log_level = logging.INFO
 	if args.debug:

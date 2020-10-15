@@ -1,10 +1,10 @@
-# SectionMap
+# section_map
 
 > Auto-generated documentation for [fhdoc.processors.section_map](../../../fhdoc/processors/section_map.py) module.
 
 Module for splitting docstring into `Section` groups.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [Processors](index.md#processors) / SectionMap
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / section_map
     - [Section](#section)
         - [Section().render](#sectionrender)
     - [SectionBlock](#sectionblock)

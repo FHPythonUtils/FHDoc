@@ -1,18 +1,18 @@
-# Examples
+# examples
 
 > Auto-generated documentation for [examples](../../examples/__init__.py) module.
 
-Examples of different docstring formats supported by [Fhdoc](../fhdoc/index.md#fhdoc).
+Examples of different docstring formats supported by [fhdoc](../fhdoc/index.md#fhdoc).
 Can be used as a list of supported features.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / Examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / examples
     - Modules
-        - [PEP 484 - comment-based type annotations examples](comment_typed.md#pep-484---comment-based-type-annotations-examples)
-        - [Supported expressions examples](expressions.md#supported-expressions-examples)
-        - [Google docstrings examples](google_docstrings.md#google-docstrings-examples)
-        - [Main Example](main_example.md#main-example)
-        - [PEP 257 - PEP 257 and Google docstrings examples](pep257_docstrings.md#pep-257---pep-257-and-google-docstrings-examples)
-        - [Stub file type annotations examples](pyi_typed.md#stub-file-type-annotations-examples)
-        - [PEP 287 - reStructuredText docstrings examples](rst_docstrings.md#pep-287---restructuredtext-docstrings-examples)
-        - [Sphinx docstrings examples](sphinx_docstrings.md#sphinx-docstrings-examples)
-        - [PEP 484 - type annotations examples](typed.md#pep-484---type-annotations-examples)
+        - [comment_typed](comment_typed.md#comment_typed)
+        - [expressions](expressions.md#expressions)
+        - [google_docstrings](google_docstrings.md#google_docstrings)
+        - [main_example](main_example.md#main_example)
+        - [pep257_docstrings](pep257_docstrings.md#pep257_docstrings)
+        - [pyi_typed](pyi_typed.md#pyi_typed)
+        - [rst_docstrings](rst_docstrings.md#rst_docstrings)
+        - [sphinx_docstrings](sphinx_docstrings.md#sphinx_docstrings)
+        - [typed](typed.md#typed)

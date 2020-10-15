@@ -1,10 +1,10 @@
-# ClassRecord
+# class_record
 
 > Auto-generated documentation for [fhdoc.ast_parser.node_records.class_record](../../../../fhdoc/ast_parser/node_records/class_record.py) module.
 
 Wrapper for an `ast.ClassDef` node.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Node Records](index.md#node-records) / ClassRecord
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / class_record
     - [ClassRecord](#classrecord)
         - [ClassRecord().find_record](#classrecordfind_record)
         - [ClassRecord().get_public_methods](#classrecordget_public_methods)

@@ -1,10 +1,10 @@
-# Main Example
+# main_example
 
 > Auto-generated documentation for [examples.main_example](../../examples/main_example.py) module.
 
 This is a module docstring. It will appear in documentation.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Main Example
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / main_example
     - [Notes](#notes)
     - [MyClass](#myclass)
         - [MyClass().\_\_bool\_\_](#myclass__bool__)

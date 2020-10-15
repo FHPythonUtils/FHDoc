@@ -1,10 +1,10 @@
-# Generator
+# generator
 
 > Auto-generated documentation for [fhdoc.generator](../../fhdoc/generator.py) module.
 
 Main fhdoc documentation generator.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Fhdoc](index.md#fhdoc) / Generator
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / generator
     - [Generator](#generator)
         - [Generator().cleanup_old_docs](#generatorcleanup_old_docs)
         - [Generator().generate_doc](#generatorgenerate_doc)
@@ -62,7 +62,7 @@ Main documentation generator.
 
 ### Generator().cleanup_old_docs
 
-[[find in source code]](../../fhdoc/generator.py#L159)
+[[find in source code]](../../fhdoc/generator.py#L160)
 
 ```python
 def cleanup_old_docs() -> None:
@@ -72,7 +72,7 @@ Remove old docs generated for this module.
 
 ### Generator().generate_doc
 
-[[find in source code]](../../fhdoc/generator.py#L204)
+[[find in source code]](../../fhdoc/generator.py#L205)
 
 ```python
 def generate_doc(source_path: Path) -> None:
@@ -90,7 +90,7 @@ Generate one module doc at once.
 
 ### Generator().generate_docs
 
-[[find in source code]](../../fhdoc/generator.py#L341)
+[[find in source code]](../../fhdoc/generator.py#L342)
 
 ```python
 def generate_docs() -> None:
@@ -100,7 +100,7 @@ Generate all doc files at once.
 
 ### Generator().generate_index
 
-[[find in source code]](../../fhdoc/generator.py#L358)
+[[find in source code]](../../fhdoc/generator.py#L359)
 
 ```python
 def generate_index() -> None:
@@ -111,7 +111,7 @@ section that contains a Tree of all modules in the project.
 
 ### Generator().generate_modules
 
-[[find in source code]](../../fhdoc/generator.py#L387)
+[[find in source code]](../../fhdoc/generator.py#L388)
 
 ```python
 def generate_modules() -> None:

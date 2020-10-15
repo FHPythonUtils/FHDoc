@@ -1,8 +1,8 @@
-# Google docstrings examples
+# google_docstrings
 
 > Auto-generated documentation for [examples.google_docstrings](../../examples/google_docstrings.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Google docstrings examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / google_docstrings
     - [Links](#links)
     - [ClassExample](#classexample)
         - [ClassExample().method_example](#classexamplemethod_example)

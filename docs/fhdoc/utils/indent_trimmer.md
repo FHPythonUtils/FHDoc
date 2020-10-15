@@ -1,10 +1,10 @@
-# IndentTrimmer
+# indent_trimmer
 
 > Auto-generated documentation for [fhdoc.utils.indent_trimmer](../../../fhdoc/utils/indent_trimmer.py) module.
 
 Utility for removing indentation for sections and lines.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [Utils](index.md#utils) / IndentTrimmer
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / indent_trimmer
     - [IndentTrimmer](#indenttrimmer)
         - [IndentTrimmer.get_line_indent](#indenttrimmerget_line_indent)
         - [IndentTrimmer.indent_line](#indenttrimmerindent_line)

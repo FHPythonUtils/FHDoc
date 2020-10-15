@@ -1,10 +1,10 @@
-# ImportString
+# import_string
 
 > Auto-generated documentation for [fhdoc.utils.import_string](../../../fhdoc/utils/import_string.py) module.
 
 Wrapper for python import strings.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#modules) / [Fhdoc](../index.md#fhdoc) / [Utils](index.md#utils) / ImportString
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / import_string
     - [ImportString](#importstring)
         - [ImportString().\_\_add\_\_](#importstring__add__)
         - [ImportString().\_\_bool\_\_](#importstring__bool__)
