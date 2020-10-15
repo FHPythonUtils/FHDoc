@@ -4,7 +4,7 @@
 
 Base class for all docstring processors:
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / base
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / base
     - [Links](#links)
     - [Supported features](#supported-features)
     - [BaseDocstringProcessor](#basedocstringprocessor)

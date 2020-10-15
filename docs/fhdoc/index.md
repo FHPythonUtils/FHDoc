@@ -4,7 +4,7 @@
 
 Root of [fhdoc](#fhdoc) source code.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / fhdoc
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / fhdoc
     - Modules
         - [\_\_main\_\_](module.md#__main__)
         - [ast_parser](ast_parser/index.md#ast_parser)

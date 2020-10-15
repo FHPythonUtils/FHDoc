@@ -4,7 +4,7 @@
 
 AST analyzer for `ast.FunctionDef` records.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / function_analyzer
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / function_analyzer
     - [FunctionAnalyzer](#functionanalyzer)
         - [FunctionAnalyzer().generic_visit](#functionanalyzergeneric_visit)
         - [FunctionAnalyzer().visit_AsyncFunctionDef](#functionanalyzervisit_asyncfunctiondef)

@@ -4,7 +4,7 @@
 
 Test for [ExpressionAnalyzer](../fhdoc/ast_parser/analyzers/expression_analyzer.md#expressionanalyzer) test.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / expressions
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [examples](index.md#examples) / expressions
 
 #### Attributes
 

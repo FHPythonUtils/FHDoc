@@ -4,7 +4,7 @@
 
 Wrapper for a text-only `ast.expr` node.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / text_record
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / text_record
     - [TextRecord](#textrecord)
         - [TextRecord().related_names](#textrecordrelated_names)
 

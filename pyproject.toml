@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fhdoc"
-version = "2020.1"
+version = "2020.2"
 description = "Python docstring-based documentation generator for lazy perfectionists"
 authors = ["FredHappyface"]
 classifiers = [

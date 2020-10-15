@@ -4,7 +4,7 @@
 
 Utilities for stdout stream logger.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / logger
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / logger
     - [get_logger](#get_logger)
 
 ## get_logger

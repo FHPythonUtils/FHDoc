@@ -4,7 +4,7 @@
 
 Wrapper for an `ast.FunctionDef` node.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / function_record
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / function_record
     - [FunctionRecord](#functionrecord)
         - [FunctionRecord().parse_type_comments](#functionrecordparse_type_comments)
         - [FunctionRecord().related_names](#functionrecordrelated_names)

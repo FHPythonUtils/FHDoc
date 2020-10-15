@@ -4,7 +4,7 @@
 
 Main CLI entrypoint for [fhdoc](index.md#fhdoc)
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / main
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / main
     - [create_external_configs](#create_external_configs)
     - [main](#main)
 

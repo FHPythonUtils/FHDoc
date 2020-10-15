@@ -2,7 +2,7 @@
 
 > Auto-generated documentation for [fhdoc.cli_parser](../../fhdoc/cli_parser.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / cli_parser
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / cli_parser
     - [abs_path](#abs_path)
     - [dir_abs_path](#dir_abs_path)
     - [existing_dir_abs_path](#existing_dir_abs_path)

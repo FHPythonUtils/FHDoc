@@ -4,7 +4,7 @@
 
 Docstring processor for restructured text docstring format.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / rst
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / rst
     - [RSTDocstringProcessor](#rstdocstringprocessor)
 
 Supported features:

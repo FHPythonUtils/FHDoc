@@ -4,7 +4,7 @@
 
 Markdown file builder.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / md_document
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / md_document
     - [MDDocument](#mddocument)
         - [MDDocument().add_toc_if_not_exists](#mddocumentadd_toc_if_not_exists)
         - [MDDocument().append](#mddocumentappend)

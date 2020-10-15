@@ -4,7 +4,7 @@
 
 AST analyzer for `ast.Module` records.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / module_analyzer
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / module_analyzer
     - [ModuleAnalyzer](#moduleanalyzer)
         - [ModuleAnalyzer().visit_Assign](#moduleanalyzervisit_assign)
         - [ModuleAnalyzer().visit_AsyncFunctionDef](#moduleanalyzervisit_asyncfunctiondef)

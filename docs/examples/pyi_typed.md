@@ -2,7 +2,7 @@
 
 > Auto-generated documentation for [examples.pyi_typed](../../examples/pyi_typed.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / pyi_typed
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [examples](index.md#examples) / pyi_typed
     - [Links](#links)
     - [MyValue](#myvalue)
     - [func](#func)

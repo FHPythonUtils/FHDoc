@@ -4,7 +4,7 @@
 
 Wrapper for an `ast.ClassDef` node.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / class_record
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / class_record
     - [ClassRecord](#classrecord)
         - [ClassRecord().find_record](#classrecordfind_record)
         - [ClassRecord().get_public_methods](#classrecordget_public_methods)

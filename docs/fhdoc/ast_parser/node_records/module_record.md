@@ -4,7 +4,7 @@
 
 Wrapper for an `ast.Module` node with corresponding node info.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / module_record
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / module_record
     - [ModuleRecord](#modulerecord)
         - [ModuleRecord().build_children](#modulerecordbuild_children)
         - [ModuleRecord.create_from_source](#modulerecordcreate_from_source)

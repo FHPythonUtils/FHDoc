@@ -4,7 +4,7 @@
 
 Translator of docstrings to Markdown format.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / docstring_formatter
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / docstring_formatter
     - [DocstringFormatter](#docstringformatter)
         - [DocstringFormatter().render](#docstringformatterrender)
 

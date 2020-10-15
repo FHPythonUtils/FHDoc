@@ -4,7 +4,7 @@
 
 Wrapper for an `ast.Import` and `ast.ImportFrom` nodes.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / import_record
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / import_record
     - [ImportRecord](#importrecord)
         - [ImportRecord().get_import_string](#importrecordget_import_string)
         - [ImportRecord().match](#importrecordmatch)

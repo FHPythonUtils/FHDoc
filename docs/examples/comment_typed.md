@@ -2,7 +2,7 @@
 
 > Auto-generated documentation for [examples.comment_typed](../../examples/comment_typed.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / comment_typed
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [examples](index.md#examples) / comment_typed
     - [Links](#links)
     - [MyValue](#myvalue)
     - [Typed](#typed)

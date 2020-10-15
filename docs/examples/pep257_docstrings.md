@@ -2,7 +2,7 @@
 
 > Auto-generated documentation for [examples.pep257_docstrings](../../examples/pep257_docstrings.py) module.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / pep257_docstrings
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [examples](index.md#examples) / pep257_docstrings
     - [Links](#links)
     - [ClassExample](#classexample)
         - [ClassExample().method_example](#classexamplemethod_example)

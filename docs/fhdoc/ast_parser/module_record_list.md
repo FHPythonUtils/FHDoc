@@ -4,7 +4,7 @@
 
 Aggregation of `ModuleRecord` objects.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [ast_parser](index.md#ast_parser) / module_record_list
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [ast_parser](index.md#ast_parser) / module_record_list
     - [ModuleRecordList](#modulerecordlist)
         - [ModuleRecordList().\_\_iter\_\_](#modulerecordlist__iter__)
         - [ModuleRecordList().add](#modulerecordlistadd)

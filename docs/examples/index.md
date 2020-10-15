@@ -5,7 +5,7 @@
 Examples of different docstring formats supported by [fhdoc](../fhdoc/index.md#fhdoc).
 Can be used as a list of supported features.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / examples
     - Modules
         - [comment_typed](comment_typed.md#comment_typed)
         - [expressions](expressions.md#expressions)

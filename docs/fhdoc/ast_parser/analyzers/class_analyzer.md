@@ -4,7 +4,7 @@
 
 AST analyzer for `ast.ClassDef` records.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / class_analyzer
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / class_analyzer
     - [ClassAnalyzer](#classanalyzer)
         - [ClassAnalyzer().generic_visit](#classanalyzergeneric_visit)
         - [ClassAnalyzer().visit_Assign](#classanalyzervisit_assign)

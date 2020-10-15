@@ -4,7 +4,7 @@
 
 Docstring processor that selects a `DocstringProcessor` based on a docstring content:
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / smart
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [processors](index.md#processors) / smart
     - [SmartDocstringProcessor](#smartdocstringprocessor)
         - [SmartDocstringProcessor().build_sections](#smartdocstringprocessorbuild_sections)
 

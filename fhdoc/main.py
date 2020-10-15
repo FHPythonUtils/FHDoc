@@ -83,8 +83,8 @@ def main():
 				generator.generate_doc(path)
 		else:
 			generator.generate_docs()
-			generator.generate_index()
-			generator.generate_modules()
+			#generator.generate_index()
+			generator.generate_modules() # This is the index...
 			if args.cleanup:
 				generator.cleanup_old_docs()
 

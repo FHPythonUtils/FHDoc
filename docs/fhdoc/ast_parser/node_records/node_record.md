@@ -4,7 +4,7 @@
 
 Base class for all node records.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / node_record
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / node_record
     - [NodeRecord](#noderecord)
         - [NodeRecord().get_documented_attribute_strings](#noderecordget_documented_attribute_strings)
         - [NodeRecord().get_related_import_strings](#noderecordget_related_import_strings)

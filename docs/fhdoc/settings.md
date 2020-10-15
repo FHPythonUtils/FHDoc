@@ -4,7 +4,7 @@
 
 Various project constants.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / settings
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / settings
 
 #### Attributes
 

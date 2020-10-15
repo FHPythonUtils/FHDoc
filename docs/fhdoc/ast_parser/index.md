@@ -4,7 +4,7 @@
 
 Collection of tools for analyzing AST and also rendering it back to a valid Python code.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / ast_parser
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / ast_parser
     - [Usage](#usage)
         - [Examples](#examples)
     - Modules

@@ -4,7 +4,7 @@
 
 Enums for AST parsing.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [ast_parser](index.md#ast_parser) / enums
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [ast_parser](index.md#ast_parser) / enums
     - [RenderPart](#renderpart)
         - [RenderPart().is_line_break](#renderpartis_line_break)
 

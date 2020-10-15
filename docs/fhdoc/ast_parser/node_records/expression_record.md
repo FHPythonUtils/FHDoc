@@ -4,7 +4,7 @@
 
 Wrapper for an `ast.expr` node.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / expression_record
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [node_records](index.md#node_records) / expression_record
     - [ExpressionRecord](#expressionrecord)
         - [ExpressionRecord().related_names](#expressionrecordrelated_names)
 

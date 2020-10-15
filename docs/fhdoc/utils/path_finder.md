@@ -5,7 +5,7 @@
 Glob helper for matching paths inside `root` path with `.gitignore`-like
 `include` and `exclude` patterns.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / path_finder
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / path_finder
     - [PathFinder](#pathfinder)
         - [PathFinder().exclude](#pathfinderexclude)
         - [PathFinder().glob](#pathfinderglob)

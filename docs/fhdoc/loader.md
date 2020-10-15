@@ -4,7 +4,7 @@
 
 Loader for python source code.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / loader
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / loader
     - [Loader](#loader)
         - [Loader().get_import_string](#loaderget_import_string)
         - [Loader().get_module_record](#loaderget_module_record)

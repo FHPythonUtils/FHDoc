@@ -2,7 +2,7 @@
 
 > Auto-generated documentation for [fhdoc.ast_parser.node_records](../../../../fhdoc/ast_parser/node_records/__init__.py) module.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / node_records
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / node_records
     - Modules
         - [argument_record](argument_record.md#argument_record)
         - [attribute_record](attribute_record.md#attribute_record)

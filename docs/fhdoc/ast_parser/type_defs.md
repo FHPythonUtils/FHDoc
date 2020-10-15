@@ -4,7 +4,7 @@
 
 Different AST-related types collection.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [ast_parser](index.md#ast_parser) / type_defs
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [ast_parser](index.md#ast_parser) / type_defs
 
 #### Attributes
 

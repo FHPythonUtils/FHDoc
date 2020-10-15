@@ -4,7 +4,7 @@
 
 This is a module docstring. It will appear in documentation.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [examples](index.md#examples) / main_example
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [examples](index.md#examples) / main_example
     - [Notes](#notes)
     - [MyClass](#myclass)
         - [MyClass().\_\_bool\_\_](#myclass__bool__)

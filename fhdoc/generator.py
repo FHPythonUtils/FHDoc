@@ -116,20 +116,20 @@ class Generator:
 	def _prepare_index(self):
 		# type: () -> None
 		self.md_index = MDDocument(self._output_path / self.INDEX_NAME)
-		self.md_modules = MDDocument(self._output_path / self.MODULES_NAME)
+		self.md_modules = MDDocument(self._output_path / self.INDEX_NAME)
 
 		# copy `README.md` content from root dir if it exists
-		readme_path = self._root_path / "README.md"
-		if readme_path.exists():
-			self.md_index.read(readme_path)
+		#readme_path = self._root_path / "README.md"
+		#if readme_path.exists():
+		#	self.md_index.read(readme_path)
 
 		if not self.md_index.title:
 			self.md_index.title = "{} {}".format(self._project_name, self.INDEX_TITLE)
 
 		# copy `MODULES.md` content from root dir if it exists
-		modules_path = self._root_path / "MODULES.md"
-		if modules_path.exists():
-			self.md_modules.read(modules_path)
+		#modules_path = self._root_path / "MODULES.md"
+		#if modules_path.exists():
+		#	self.md_modules.read(modules_path)
 
 		if not self.md_modules.title:
 			self.md_modules.title = "{} {}".format(

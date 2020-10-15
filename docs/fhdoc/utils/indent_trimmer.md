@@ -4,7 +4,7 @@
 
 Utility for removing indentation for sections and lines.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / indent_trimmer
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / [utils](index.md#utils) / indent_trimmer
     - [IndentTrimmer](#indenttrimmer)
         - [IndentTrimmer.get_line_indent](#indenttrimmerget_line_indent)
         - [IndentTrimmer.indent_line](#indenttrimmerindent_line)

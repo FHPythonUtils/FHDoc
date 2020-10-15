@@ -4,7 +4,7 @@
 
 Docstrings processors.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / processors
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / processors
     - Modules
         - [base](base.md#base)
         - [pep257](pep257.md#pep257)

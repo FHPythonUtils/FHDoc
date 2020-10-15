@@ -4,7 +4,7 @@
 
 Main fhdoc documentation generator.
 
-- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / generator
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../README.md#fhdoc-modules) / [fhdoc](index.md#fhdoc) / generator
     - [Generator](#generator)
         - [Generator().cleanup_old_docs](#generatorcleanup_old_docs)
         - [Generator().generate_doc](#generatorgenerate_doc)

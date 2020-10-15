@@ -2,7 +2,7 @@
 
 > Auto-generated documentation for [fhdoc.ast_parser.analyzers](../../../../fhdoc/ast_parser/analyzers/__init__.py) module.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / analyzers
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / analyzers
     - Modules
         - [base_analyzer](base_analyzer.md#base_analyzer)
         - [class_analyzer](class_analyzer.md#class_analyzer)

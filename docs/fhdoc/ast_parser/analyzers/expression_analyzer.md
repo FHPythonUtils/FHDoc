@@ -4,7 +4,7 @@
 
 AST analyzer for `ast.expr` records.
 
-- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / expression_analyzer
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../README.md#fhdoc-modules) / [fhdoc](../../index.md#fhdoc) / [ast_parser](../index.md#ast_parser) / [analyzers](index.md#analyzers) / expression_analyzer
     - [ExpressionAnalyzer](#expressionanalyzer)
         - [ExpressionAnalyzer().generic_visit](#expressionanalyzergeneric_visit)
         - [ExpressionAnalyzer().visit_Attribute](#expressionanalyzervisit_attribute)

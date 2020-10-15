@@ -4,7 +4,7 @@
 
 Handful utils that do not deserve a separate module.
 
-- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../MODULES.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / utils
+- [Fhdoc](../../README.md#fhdoc-index) / [Modules](../../README.md#fhdoc-modules) / [fhdoc](../index.md#fhdoc) / utils
     - [extract_md_title](#extract_md_title)
     - [make_title](#make_title)
     - [render_asset](#render_asset)
