@@ -1,32 +1,37 @@
-# 🙌 Handsdown - Python documentation generator
+# Fhdoc Index
 
 > Auto-generated documentation index.
 
-[![PyPI - Handsdown](https://img.shields.io/pypi/v/handsdown.svg?color=blue&style=for-the-badge)](https://pypi.org/project/handsdown)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/handsdown.svg?color=blue&style=for-the-badge)](https://pypi.org/project/handsdown)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/handsdown?color=blue&style=for-the-badge)
-[![Build Status](https://img.shields.io/travis/vemel/handsdown.svg?style=for-the-badge)](https://travis-ci.org/vemel/handsdown)
-[![Code Coverage](https://img.shields.io/codecov/c/gh/vemel/handsdown.svg?style=for-the-badge)](https://codecov.io/gh/vemel/handsdown/tree/master/handsdown)
-[![Docs](https://img.shields.io/readthedocs/handsdown.svg?color=blue&style=for-the-badge)](https://handsdown.readthedocs.io/)
+[![GitHub top language](https://img.shields.io/github/languages/top/FredHappyface/FHDoc.svg?style=for-the-badge)](../../)
+[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual|gh/FredHappyface/FHDoc)
+[![Repository size](https://img.shields.io/github/repo-size/FredHappyface/FHDoc.svg?style=for-the-badge)](../../)
+[![Issues](https://img.shields.io/github/issues/FredHappyface/FHDoc.svg?style=for-the-badge)](../../issues)
+[![License](https://img.shields.io/github/license/FredHappyface/FHDoc.svg?style=for-the-badge)](/LICENSE.md)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/FredHappyface/FHDoc.svg?style=for-the-badge)](../../commits/master)
+[![Last commit](https://img.shields.io/github/last-commit/FredHappyface/FHDoc.svg?style=for-the-badge)](../../commits/master)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/fhdoc.svg?style=for-the-badge)](https://pypi.org/project/fhdoc/)
+[![PyPI Version](https://img.shields.io/pypi/v/fhdoc.svg?style=for-the-badge)](https://pypi.org/project/fhdoc/)
+
+# 🙌 FHDoc - Python documentation generator
 
 Python docstring-based documentation generator for lazy perfectionists.
 
-Full Handsdown project documentation can be found in [Modules](MODULES.md#modules)
+Full Fhdoc project documentation can be found in [Modules](MODULES.md#modules)
 
-- [🙌 Handsdown - Python documentation generator](#%f0%9f%99%8c-handsdown---python-documentation-generator)
-  - [Features](#features)
-  - [Do you need handsdown?](#do-you-need-handsdown)
-  - [Examples](#examples)
-  - [Usage](#usage)
-    - [💻 From command line](#%f0%9f%92%bb-from-command-line)
-    - [📦 As a Docker image](#%f0%9f%93%a6-as-a-docker-image)
-    - [📝 As a GitHub Pages manager](#%f0%9f%93%9d-as-a-github-pages-manager)
-    - [🐏 Deploy on Read the Docs](#%f0%9f%90%8f-deploy-on-read-the-docs)
-    - [📋 Build static HTML](#%f0%9f%93%8b-build-static-html)
-    - [🧩 As a module](#%f0%9f%a7%a9-as-a-module)
-  - [Installation](#installation)
-  - [Development](#development)
-  - [Changelog](#changelog)
+- [🙌 FHDoc - Python documentation generator](#-fhdoc---python-documentation-generator)
+	- [Features](#features)
+	- [Do you need fhdoc?](#do-you-need-fhdoc)
+	- [Examples](#examples)
+	- [Usage](#usage)
+		- [💻 From command line](#-from-command-line)
+		- [📦 As a Docker image](#-as-a-docker-image)
+		- [📝 As a GitHub Pages manager](#-as-a-github-pages-manager)
+		- [🐏 Deploy on Read the Docs](#-deploy-on-read-the-docs)
+		- [📋 Build static HTML](#-build-static-html)
+		- [🧩 As a module](#-as-a-module)
+	- [Installation](#installation)
+	- [Development](#development)
+	- [Changelog](#changelog)
   - [Modules](MODULES.md#modules)
 
 ## Features
@@ -38,17 +43,17 @@ Full Handsdown project documentation can be found in [Modules](MODULES.md#module
   docstrings support. All of them are converted to a valid Markdown.
 - Works with [Django](https://www.djangoproject.com/) and [Flask](https://palletsprojects.com/p/flask/) apps
 - Can be used locally, or
-  [right on GitHub](https://github.com/vemel/handsdown/blob/master/docs/README.md) or even deployed on
-  [GitHub Pages](https://vemel.github.io/handsdown/) and [Read the Docs](https://handsdown.readthedocs.io/)!
+  [right on GitHub](https://github.com/vemel/fhdoc/blob/master/docs/README.md) or even deployed on
+  [GitHub Pages](https://vemel.github.io/fhdoc/) and [Read the Docs](https://fhdoc.readthedocs.io/)!
 - Signatures for every class, function, property and method.
 - Support for type annotations. Even for the ones from the `__future__`!
-- Nice list of all modules in [Modules](https://github.com/vemel/handsdown/blob/master/docs/MODULES.md)
+- Nice list of all modules in [Modules](https://github.com/vemel/fhdoc/blob/master/docs/MODULES.md)
 - Gather all scattered `README.md` in submodules to one place
 - Find related source code from every doc section.
 - Make links by just adding `module.import.String` to docs.
 - Do you use type annotations? Well, you get auto-discovery of related modules for free!
 
-## Do you need handsdown?
+## Do you need fhdoc?
 
 You definitely *do* if you:
 
@@ -68,36 +73,36 @@ And probably *do not* if you:
 
 ## Examples
 
-- [All documentation](https://vemel.github.io/handsdown/) in this project
-- [Main](https://github.com/vemel/handsdown/blob/master/examples/main_example.py) with [generated output](https://github.com/vemel/handsdown/tree/master/docs/examples/main_example.md)
-- [RST docstrings](https://github.com/vemel/handsdown/blob/master/examples/rst_docstrings.py) with [generated output](https://github.com/vemel/handsdown/tree/master/docs/examples/rst_docstrings.md)
-- [Google docstrings](https://github.com/vemel/handsdown/blob/master/examples/google_docstrings.py) with [generated output](https://github.com/vemel/handsdown/tree/master/docs/examples/google_docstrings.md)
-- [PEP 257 docstrings](https://github.com/vemel/handsdown/blob/master/examples/pep257_docstrings.py) with [generated output](https://github.com/vemel/handsdown/tree/master/docs/examples/pep257_docstrings.md)
-- [Sphinx docstrings](https://github.com/vemel/handsdown/blob/master/examples/sphinx_docstrings.py) with [generated output](https://github.com/vemel/handsdown/tree/master/docs/examples/sphinx_docstrings.md)
-- [Type annotations](https://github.com/vemel/handsdown/blob/master/examples/typed.py) with [generated output](https://github.com/vemel/handsdown/tree/master/docs/examples/typed.md)
-- [Comment-style type annotations](https://github.com/vemel/handsdown/blob/master/examples/comment_typed.py) with [generated output](https://github.com/vemel/handsdown/tree/master/docs/examples/comment_typed.md)
+- [All documentation](https://vemel.github.io/fhdoc/) in this project
+- [Main](https://github.com/vemel/fhdoc/blob/master/examples/main_example.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/main_example.md)
+- [RST docstrings](https://github.com/vemel/fhdoc/blob/master/examples/rst_docstrings.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/rst_docstrings.md)
+- [Google docstrings](https://github.com/vemel/fhdoc/blob/master/examples/google_docstrings.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/google_docstrings.md)
+- [PEP 257 docstrings](https://github.com/vemel/fhdoc/blob/master/examples/pep257_docstrings.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/pep257_docstrings.md)
+- [Sphinx docstrings](https://github.com/vemel/fhdoc/blob/master/examples/sphinx_docstrings.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/sphinx_docstrings.md)
+- [Type annotations](https://github.com/vemel/fhdoc/blob/master/examples/typed.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/typed.md)
+- [Comment-style type annotations](https://github.com/vemel/fhdoc/blob/master/examples/comment_typed.py) with [generated output](https://github.com/vemel/fhdoc/tree/master/docs/examples/comment_typed.md)
 
 ## Usage
 
 ### 💻 From command line
 
 Just go to your favorite project that has lots of docstrings but missing
-auto-generated docs and let `handsdown` do the thing.
+auto-generated docs and let `fhdoc` do the thing.
 
 ```bash
 cd ~/my/project
 
 # build documentation *.md* files in docs/* directory
-handsdown
+fhdoc
 
 # or provide custom output directory: output_dir/*
-handsdown -o output_dir
+fhdoc -o output_dir
 
 # generate docs only for my_module, but exclude migrations
-handsdown my_module --exclude my_module/migrations
+fhdoc my_module --exclude my_module/migrations
 
 # generate documentation for deployment
-handsdown --external `git config --get remote.origin.url` -n ProjectName
+fhdoc --external `git config --get remote.origin.url` -n ProjectName
 ```
 
 Navigate to `docs/README.md` to check your new documentation!
@@ -105,29 +110,29 @@ Navigate to `docs/README.md` to check your new documentation!
 ### 📦 As a Docker image
 
 - Install [Docker](https://docs.docker.com/install/)
-- Pull latest `handsdown` version and tag it
+- Pull latest `fhdoc` version and tag it
 
 ```bash
-docker pull docker.pkg.github.com/vemel/handsdown/handsdown:latest
-docker tag docker.pkg.github.com/vemel/handsdown/handsdown:latest handsdown
+docker pull docker.pkg.github.com/vemel/fhdoc/fhdoc:latest
+docker tag docker.pkg.github.com/vemel/fhdoc/fhdoc:latest fhdoc
 ```
 
 - Generate docs for `ProjectName` in current directory
 
 ```bash
 # for Python 3 project
-docker run -v `pwd`:/app handsdown -n ProjectName
+docker run -v `pwd`:/app fhdoc -n ProjectName
 
 # for Python 2 project
-PYTHON_VER=2 docker run -v `pwd`:/app handsdown -n ProjectName
+PYTHON_VER=2 docker run -v `pwd`:/app fhdoc -n ProjectName
 
 # generate documentation for deployment
-docker run -v `pwd`:/app handsdown --external `git config --get remote.origin.url` -n ProjectName
+docker run -v `pwd`:/app fhdoc --external `git config --get remote.origin.url` -n ProjectName
 ```
 
 ### 📝 As a GitHub Pages manager
 
-With `--external` CLI flag, `handsdown` generates all required configuration
+With `--external` CLI flag, `fhdoc` generates all required configuration
 for [GitHub Pages](https://pages.github.com/), so you just need to setup your
 GitHub repository.
 
@@ -135,10 +140,10 @@ GitHub repository.
 # Generate documentation that points to master branch
 # do not use custom output location, as `GitHub Pages`
 # works only with `docs` directory
-handsdown --external `git config --get remote.origin.url`
+fhdoc --external `git config --get remote.origin.url`
 
 # or specify GitHub url directly
-handsdown --external https://github.com/<user>/<project>/blob/master/
+fhdoc --external https://github.com/<user>/<project>/blob/master/
 ```
 
 - Generate documentation with `--external` flag as shown above, do not use `--output`
@@ -155,12 +160,12 @@ generate docs to another folder
 ```bash
 # `docs_local` folder will be created in your project root
 # you probably want to add it to .gitignore
-handsdown -o docs_local
+fhdoc -o docs_local
 ```
 
 ### 🐏 Deploy on Read the Docs
 
-With `--external` CLI flag, `handsdown` generates all required configuration
+With `--external` CLI flag, `fhdoc` generates all required configuration
 for [Read the Docs](https://readthedocs.org/), so you just need to to add your
 GitHub repository to `Read the Docs`.
 
@@ -168,10 +173,10 @@ GitHub repository to `Read the Docs`.
 # Generate documentation that points to master branch
 # do not use custom output location, as `GitHub Pages`
 # works only with `docs` directory
-handsdown --external `git config --get remote.origin.url`
+fhdoc --external `git config --get remote.origin.url`
 
 # or specify GitHub url directly
-handsdown --external https://github.com/<user>/<project>/blob/master/
+fhdoc --external https://github.com/<user>/<project>/blob/master/
 ```
 
 - Generate documentation with `--external` flag as shown above, do not use `--output`
@@ -187,7 +192,7 @@ All set! You can change `.readthedocs.yml` and `mkdocs.yml` to add your own touc
 # Generate documentation that points to master branch
 # with source links pointing to your repository
 # this command also creates `mkdocs.yml`
-handsdown --external `git config --get remote.origin.url`
+fhdoc --external `git config --get remote.origin.url`
 
 # Run mkdocs to build HTML
 mkdocs build
@@ -196,8 +201,8 @@ mkdocs build
 ### 🧩 As a module
 
 ```python
-from handsdown.generator import Generator
-from handsdown.utils.path_finder import PathFinder
+from fhdoc.generator import Generator
+from fhdoc.utils.path_finder import PathFinder
 
 # this is our project root directory
 repo_path = Path.cwd()
@@ -210,20 +215,20 @@ path_finder = PathFinder(repo_path, "**/*.py")
 path_finder.exclude("tests/*", "build/*")
 
 # initialize generator
-handsdown = Generator(
-    input_path=repo_path,
-    output_path=repo_path / 'output',
-    source_paths=path_finder.glob("**/*.py")
+fhdoc = Generator(
+	input_path=repo_path,
+	output_path=repo_path / 'output',
+	source_paths=path_finder.glob("**/*.py")
 )
 
 # generate all docs at once
-handsdown.generate_docs()
+fhdoc.generate_docs()
 
 # or generate just for one doc
-handsdown.generate_doc(repo_path / 'my_module' / 'source.py')
+fhdoc.generate_doc(repo_path / 'my_module' / 'source.py')
 
 # and generate index.md file
-handsdown.generate_index()
+fhdoc.generate_index()
 
 # navigate to `output` dir and check results
 ```
@@ -233,13 +238,13 @@ handsdown.generate_index()
 Install using `pip` from PyPI
 
 ```bash
-pip install handsdown
+pip install fhdoc
 ```
 
 or directly from GitHub if you cannot wait to test new features
 
 ```bash
-pip install git+https://github.com/vemel/handsdown.git
+pip install git+https://github.com/vemel/fhdoc.git
 ```
 
 ## Development
@@ -250,4 +255,4 @@ pip install git+https://github.com/vemel/handsdown.git
 
 ## Changelog
 
-Changelog can be found in [Releases](https://github.com/vemel/handsdown/releases)
+Changelog can be found in [Releases](https://github.com/vemel/fhdoc/releases)

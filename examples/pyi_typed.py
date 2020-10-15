@@ -9,12 +9,12 @@
 
 
 class MyValue:
-    pass
+	pass
 
 
 def func(_list, _my_value_cls=MyValue, **_kwargs):
-    pass
+	pass
 
 
 def func_any(_list, _my_value_cls=MyValue, **_kwargs):
-    pass
+	pass

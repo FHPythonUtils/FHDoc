@@ -1,6 +1,6 @@
 """
-Examples of different docstring formats supported by `handsdown`.
+Examples of different docstring formats supported by `fhdoc`.
 Can be used as a list of supported features.
 """
 
-name = "handsdown-examples"
+name = "fhdoc-examples"

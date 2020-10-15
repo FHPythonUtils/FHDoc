@@ -1,7 +1,7 @@
 """
 # Supported expressions examples
 
-Test for `handsdown.ast_parser.analyzers.expression_analyzer.ExpressionAnalyzer` test.
+Test for `fhdoc.ast_parser.analyzers.expression_analyzer.ExpressionAnalyzer` test.
 """
 
 # string example

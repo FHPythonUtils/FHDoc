@@ -1,0 +1,101 @@
+# ClassRecord
+
+> Auto-generated documentation for [fhdoc.ast_parser.node_records.class_record](../../../../fhdoc/ast_parser/node_records/class_record.py) module.
+
+Wrapper for an `ast.ClassDef` node.
+
+- [Fhdoc](../../../README.md#fhdoc-index) / [Modules](../../../MODULES.md#modules) / [Fhdoc](../../index.md#fhdoc) / [AST Parser](../index.md#ast-parser) / [Node Records](index.md#node-records) / ClassRecord
+    - [ClassRecord](#classrecord)
+        - [ClassRecord().find_record](#classrecordfind_record)
+        - [ClassRecord().get_public_methods](#classrecordget_public_methods)
+        - [ClassRecord().iter_records](#classrecorditer_records)
+        - [ClassRecord().related_names](#classrecordrelated_names)
+
+## ClassRecord
+
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/class_record.py#L19)
+
+```python
+class ClassRecord(NodeRecord):
+    def __init__(node: ast.ClassDef) -> None:
+```
+
+Wrapper for an `ast.ClassDef` node.
+
+#### Arguments
+
+- `node` - AST node.
+
+#### See also
+
+- [NodeRecord](node_record.md#noderecord)
+
+### ClassRecord().find_record
+
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/class_record.py#L39)
+
+```python
+def find_record(name: Text) -> Optional[NodeRecord]:
+```
+
+Find child method or attribute record.
+
+#### Arguments
+
+- `name` - Record name to lookup.
+
+#### Returns
+
+Itself or None.
+
+#### See also
+
+- [NodeRecord](node_record.md#noderecord)
+
+### ClassRecord().get_public_methods
+
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/class_record.py#L92)
+
+```python
+def get_public_methods() -> List[FunctionRecord]:
+```
+
+Get Class public methods.
+
+Skips methods with names starting with `_` and magic methods  `__` if
+they have no docstring. Method `__init__` is always skipped.
+
+#### Returns
+
+A list of child records.
+
+#### See also
+
+- [FunctionRecord](function_record.md#functionrecord)
+
+### ClassRecord().iter_records
+
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/class_record.py#L78)
+
+```python
+def iter_records() -> Generator[NodeRecord, None, None]:
+```
+
+Iterate over Class public methods.
+
+#### Yields
+
+A child record.
+
+#### See also
+
+- [NodeRecord](node_record.md#noderecord)
+
+### ClassRecord().related_names
+
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/class_record.py#L63)
+
+```python
+@property
+def related_names() -> Set[Text]:
+```

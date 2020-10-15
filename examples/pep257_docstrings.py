@@ -10,66 +10,66 @@ from typing import Text
 
 
 class ClassExample:
-    """
-    PEP257-style class example
+	"""
+	PEP257-style class example
 
-    Attributes:
-        attr1 -- Description of `attr1`.
-        attr2 -- Description of `attr2`.
+	Attributes:
+		attr1 -- Description of `attr1`.
+		attr2 -- Description of `attr2`.
 
-    ```python
-    Example of a code block
-    ```
+	```python
+	Example of a code block
+	```
 
-    You can use `~~~` to start a block as well
+	You can use `~~~` to start a block as well
 
-    ~~~
-    MD block example inside a tilde block
+	~~~
+	MD block example inside a tilde block
 
-    ```python
-    This is not a codeblock, test inside tildes rendered as it is
-    ```
-    ~~~
-    """
+	```python
+	This is not a codeblock, test inside tildes rendered as it is
+	```
+	~~~
+	"""
 
-    def method_example(self, text: Text = "hello") -> int:
-        """Summary line.
+	def method_example(self, text: Text = "hello") -> int:
+		"""Summary line.
 
-        Extended description of method.
+		Extended description of method.
 
-        Examples:
-            Examples should be written in doctest format, and should illustrate how
-            to use the function.
+		Examples:
+			Examples should be written in doctest format, and should illustrate how
+			to use the function.
 
-            >>> print([i for i in
-            ... example_generator(2)])
-            [
-                'one',
-                'two',
-            ]
+			>>> print([i for i in
+			... example_generator(2)])
+			[
+				'one',
+				'two',
+			]
 
-            >>> setup_env()
-            >>> func_call(
-            ...     first_name='test',
-            ...     last_name='test',
-            ... )
+			>>> setup_env()
+			>>> func_call(
+			...	 first_name='test',
+			...	 last_name='test',
+			... )
 
-        Args:
-            text -- Description of arg1
-            *args -- Description of args
-            **kwargs -- Description of kwargs
+		Args:
+			text -- Description of arg1
+			*args -- Description of args
+			**kwargs -- Description of kwargs
 
-        Returns:
-            Description of return value
-        """
-        return len(text)
+		Returns:
+			Description of return value
+		"""
+		return len(text)
 
 
 def function_example(real=0.0, imag=0.0):
-    """Form a complex number.
+	"""Form a complex number.
 
-    Keyword arguments:
-    real -- the real part (default 0.0)
-    imag -- the imaginary part (default 0.0)
-    """
-    return real == imag
+	Keyword arguments:
+	real -- the real part (default 0.0)
+	imag -- the imaginary part (default 0.0)
+	"""
+	return real == imag

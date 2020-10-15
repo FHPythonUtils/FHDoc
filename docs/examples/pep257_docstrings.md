@@ -1,8 +1,8 @@
 # PEP 257 - PEP 257 and Google docstrings examples
 
-> Auto-generated documentation for [examples.pep257_docstrings](https://github.com/vemel/handsdown/blob/master/examples/pep257_docstrings.py) module.
+> Auto-generated documentation for [examples.pep257_docstrings](../../examples/pep257_docstrings.py) module.
 
-- [Handsdown](../README.md#-handsdown---python-documentation-generator) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 257 - PEP 257 and Google docstrings examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 257 - PEP 257 and Google docstrings examples
     - [Links](#links)
     - [ClassExample](#classexample)
         - [ClassExample().method_example](#classexamplemethod_example)
@@ -14,7 +14,7 @@
 
 ## ClassExample
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/pep257_docstrings.py#L12)
+[[find in source code]](../../examples/pep257_docstrings.py#L12)
 
 ```python
 class ClassExample():
@@ -43,7 +43,7 @@ This is not a codeblock, test inside tildes rendered as it is
 
 ### ClassExample().method_example
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/pep257_docstrings.py#L35)
+[[find in source code]](../../examples/pep257_docstrings.py#L35)
 
 ```python
 def method_example(text: Text = 'hello') -> int:
@@ -62,16 +62,16 @@ to use the function.
 >>> print([i for i in
 ... example_generator(2)])
 [
-    'one',
-    'two',
+ 'one',
+ 'two',
 ]
 ```
 
 ```python
 >>> setup_env()
 >>> func_call(
-...     first_name='test',
-...     last_name='test',
+...	 first_name='test',
+...	 last_name='test',
 ... )
 ```
 
@@ -87,7 +87,7 @@ Description of return value
 
 ## function_example
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/pep257_docstrings.py#L68)
+[[find in source code]](../../examples/pep257_docstrings.py#L68)
 
 ```python
 def function_example(real=0.0, imag=0.0):

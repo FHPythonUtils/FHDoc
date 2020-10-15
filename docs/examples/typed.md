@@ -1,8 +1,8 @@
 # PEP 484 - type annotations examples
 
-> Auto-generated documentation for [examples.typed](https://github.com/vemel/handsdown/blob/master/examples/typed.py) module.
+> Auto-generated documentation for [examples.typed](../../examples/typed.py) module.
 
-- [Handsdown](../README.md#-handsdown---python-documentation-generator) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 484 - type annotations examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 484 - type annotations examples
     - [Links](#links)
     - [MyValue](#myvalue)
     - [Typed](#typed)
@@ -17,7 +17,7 @@
 
 ## MyValue
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/typed.py#L12)
+[[find in source code]](../../examples/typed.py#L12)
 
 ```python
 class MyValue():
@@ -25,12 +25,12 @@ class MyValue():
 
 ## Typed
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/typed.py#L16)
+[[find in source code]](../../examples/typed.py#L16)
 
 ```python
 class Typed():
     def __init__(
-        _value: Union[List[Text], Text, MyValue] = MyValue(
+        _value: Union[(List[Text], Text, MyValue)] = MyValue(
             {
                 'key1': 'value1',
                 'key2': 'value2',
@@ -41,12 +41,12 @@ class Typed():
             },
         ),
         _name: Text = 'default',
-    ) -> Dict[Text, MyValue]:
+    ) -> Dict[(Text, MyValue)]:
 ```
 
 ### Typed().async_method
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/typed.py#L38)
+[[find in source code]](../../examples/typed.py#L38)
 
 ```python
 async def async_method(_value: Text) -> Text:
@@ -54,7 +54,7 @@ async def async_method(_value: Text) -> Text:
 
 ### Typed.classmethod
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/typed.py#L34)
+[[find in source code]](../../examples/typed.py#L34)
 
 ```python
 @classmethod
@@ -67,12 +67,12 @@ def classmethod(_my_value: MyValue, *_args: Text, **_kwargs: Any) -> None:
 
 ## func
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/typed.py#L46)
+[[find in source code]](../../examples/typed.py#L46)
 
 ```python
 @my_deco(key='value')
 def func(
-    _list: Tuple[List[Text], ...],
+    _list: Tuple[(List[Text], ...)],
     _my_value_cls: Type[MyValue] = MyValue,
     **_kwargs: None,
 ) -> Any:
@@ -84,7 +84,7 @@ def func(
 
 ## my_deco
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/typed.py#L42)
+[[find in source code]](../../examples/typed.py#L42)
 
 ```python
 def my_deco(key):

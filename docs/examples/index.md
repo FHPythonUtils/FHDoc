@@ -1,11 +1,11 @@
 # Examples
 
-> Auto-generated documentation for [examples](https://github.com/vemel/handsdown/blob/master/examples/__init__.py) module.
+> Auto-generated documentation for [examples](../../examples/__init__.py) module.
 
-Examples of different docstring formats supported by [Handsdown](../handsdown/index.md#handsdown).
+Examples of different docstring formats supported by [Fhdoc](../fhdoc/index.md#fhdoc).
 Can be used as a list of supported features.
 
-- [Handsdown](../README.md#-handsdown---python-documentation-generator) / [Modules](../MODULES.md#modules) / Examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / Examples
     - Modules
         - [PEP 484 - comment-based type annotations examples](comment_typed.md#pep-484---comment-based-type-annotations-examples)
         - [Supported expressions examples](expressions.md#supported-expressions-examples)

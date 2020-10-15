@@ -1,10 +1,10 @@
 # Main Example
 
-> Auto-generated documentation for [examples.main_example](https://github.com/vemel/handsdown/blob/master/examples/main_example.py) module.
+> Auto-generated documentation for [examples.main_example](../../examples/main_example.py) module.
 
 This is a module docstring. It will appear in documentation.
 
-- [Handsdown](../README.md#-handsdown---python-documentation-generator) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Main Example
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Main Example
     - [Notes](#notes)
     - [MyClass](#myclass)
         - [MyClass().\_\_bool\_\_](#myclass__bool__)
@@ -24,7 +24,7 @@ and it will be transformed to a link.
 
 ## MyClass
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/main_example.py#L54)
+[[find in source code]](../../examples/main_example.py#L54)
 
 ```python
 class MyClass(BaseClass):
@@ -43,7 +43,7 @@ This time we use RST docstrings format.
 
 ### MyClass().\_\_bool\_\_
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/main_example.py#L92)
+[[find in source code]](../../examples/main_example.py#L92)
 
 ```python
 def __bool__() -> bool:
@@ -57,7 +57,7 @@ True if [STUFF_COUNT](#myclass) is not zero
 
 ### MyClass.do_something
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/main_example.py#L65)
+[[find in source code]](../../examples/main_example.py#L65)
 
 ```python
 @classmethod
@@ -72,7 +72,7 @@ it to a docstring in backticks and it will be transformed to a link.
 ```python
 # usage example
 def my_stuff(amount):
-    return amount > 5
+ return amount > 5
 
 MyClass.do_something(my_stuff)  # False
 ```
@@ -84,7 +84,7 @@ Added in version 1.3
 Deprecated in version 1.8
 
 Changed in version 1.4
-    All these directives are added to `Notes` section and formatted in Sphinx-style.
+ All these directives are added to `Notes` section and formatted in Sphinx-style.
 
 #### Arguments
 
@@ -96,7 +96,7 @@ Changed in version 1.4
 
 ## hello
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/main_example.py#L27)
+[[find in source code]](../../examples/main_example.py#L27)
 
 ```python
 def hello(name: Text) -> Text:

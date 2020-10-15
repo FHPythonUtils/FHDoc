@@ -1,8 +1,8 @@
 # Google docstrings examples
 
-> Auto-generated documentation for [examples.google_docstrings](https://github.com/vemel/handsdown/blob/master/examples/google_docstrings.py) module.
+> Auto-generated documentation for [examples.google_docstrings](../../examples/google_docstrings.py) module.
 
-- [Handsdown](../README.md#-handsdown---python-documentation-generator) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Google docstrings examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Google docstrings examples
     - [Links](#links)
     - [ClassExample](#classexample)
         - [ClassExample().method_example](#classexamplemethod_example)
@@ -15,7 +15,7 @@
 
 ## ClassExample
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/google_docstrings.py#L12)
+[[find in source code]](../../examples/google_docstrings.py#L12)
 
 ```python
 class ClassExample():
@@ -30,7 +30,7 @@ Google-style class example
 
 ### ClassExample().method_example
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/google_docstrings.py#L21)
+[[find in source code]](../../examples/google_docstrings.py#L21)
 
 ```python
 def method_example(text: Text = 'hello') -> int:
@@ -49,16 +49,16 @@ to use the function
 >>> print([i for i in
 ... example_generator(2)])
 [
-    'one',
-    'two',
+ 'one',
+ 'two',
 ]
 ```
 
 ```python
 >>> setup_env()
 >>> func_call(
-...     first_name='test',
-...     last_name='test',
+...	 first_name='test',
+...	 last_name='test',
 ... )
 ```
 
@@ -74,7 +74,7 @@ to use the function
 
 ## function_example
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/google_docstrings.py#L55)
+[[find in source code]](../../examples/google_docstrings.py#L55)
 
 ```python
 def function_example(arg1, arg2, arg3=None):
@@ -87,10 +87,10 @@ You can use this function like
 
 ```python
 result = function_example(
-    {
-        'key': 'value',
-    },
-    None,
+ {
+  'key': 'value',
+ },
+ None,
 )
 
 print result
@@ -109,12 +109,12 @@ print result
 #### Raises
 
 - `AttributeError` - The ``Raises`` section is a list of all exceptions
-    that are relevant to the interface.
+ that are relevant to the interface.
 - `ValueError` - If `param2` is equal to `param1`.
 
 ## function_with_pep484_type_annotations
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/google_docstrings.py#L86)
+[[find in source code]](../../examples/google_docstrings.py#L86)
 
 ```python
 def function_with_pep484_type_annotations(param1: int, param2: str) -> bool:

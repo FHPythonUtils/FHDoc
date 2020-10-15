@@ -1,10 +1,10 @@
 # Supported expressions examples
 
-> Auto-generated documentation for [examples.expressions](https://github.com/vemel/handsdown/blob/master/examples/expressions.py) module.
+> Auto-generated documentation for [examples.expressions](../../examples/expressions.py) module.
 
-Test for [ExpressionAnalyzer](../handsdown/ast_parser/analyzers/expression_analyzer.md#expressionanalyzer) test.
+Test for [ExpressionAnalyzer](../fhdoc/ast_parser/analyzers/expression_analyzer.md#expressionanalyzer) test.
 
-- [Handsdown](../README.md#-handsdown---python-documentation-generator) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Supported expressions examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / Supported expressions examples
 
 #### Attributes
 

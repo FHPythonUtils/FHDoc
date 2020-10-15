@@ -1,8 +1,8 @@
 # PEP 287 - reStructuredText docstrings examples
 
-> Auto-generated documentation for [examples.rst_docstrings](https://github.com/vemel/handsdown/blob/master/examples/rst_docstrings.py) module.
+> Auto-generated documentation for [examples.rst_docstrings](../../examples/rst_docstrings.py) module.
 
-- [Handsdown](../README.md#-handsdown---python-documentation-generator) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 287 - reStructuredText docstrings examples
+- [Fhdoc](../README.md#fhdoc-index) / [Modules](../MODULES.md#modules) / [Examples](index.md#examples) / PEP 287 - reStructuredText docstrings examples
     - [Links](#links)
     - [RSTExample](#rstexample)
         - [RSTExample.reference](#rstexamplereference)
@@ -15,7 +15,7 @@
 
 ## RSTExample
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/rst_docstrings.py#L11)
+[[find in source code]](../../examples/rst_docstrings.py#L11)
 
 ```python
 class RSTExample():
@@ -23,7 +23,7 @@ class RSTExample():
 
 ### RSTExample.reference
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/rst_docstrings.py#L12)
+[[find in source code]](../../examples/rst_docstrings.py#L12)
 
 ```python
 @staticmethod
@@ -51,7 +51,7 @@ Code example
 
 ```python
 data = {
-    'key': 'value',
+ 'key': 'value',
 }
 
 print(data)
@@ -59,7 +59,7 @@ print(data)
 
 ### RSTExample.replace_test
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/rst_docstrings.py#L41)
+[[find in source code]](../../examples/rst_docstrings.py#L41)
 
 ```python
 @staticmethod
@@ -71,7 +71,7 @@ Check if all attribute `attributes`, ``data`` and exception `Exception` in
 
 ### RSTExample.rtype_test
 
-[[find in source code]](https://github.com/vemel/handsdown/blob/master/examples/rst_docstrings.py#L32)
+[[find in source code]](../../examples/rst_docstrings.py#L32)
 
 ```python
 @staticmethod
