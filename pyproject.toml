@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fhdoc"
-version = "2020.2"
+version = "2020.2.2"
 description = "Python docstring-based documentation generator for lazy perfectionists"
 authors = ["FredHappyface"]
 classifiers = [
@@ -20,13 +20,13 @@ classifiers = [
 	"Topic :: Software Development :: Libraries :: Python Modules",
 	"Topic :: Utilities"
 ]
-homepage = "https://github.com/FHPythonUtils/FHMake"
-repository = "https://github.com/FHPythonUtils/FHMake"
-documentation = "https://github.com/FHPythonUtils/FHMake/blob/master/README.md"
+homepage = "https://github.com/FHPythonUtils/fhdoc"
+repository = "https://github.com/FHPythonUtils/fhdoc"
+documentation = "https://github.com/FHPythonUtils/fhdoc/blob/master/README.md"
 readme = "README.md"
 
 [tool.poetry.scripts]
-fhmake = 'fhmake:cli'
+fhdoc = 'fhdoc:main'
 
 [tool.poetry.dependencies]
 python = "^3.8"
