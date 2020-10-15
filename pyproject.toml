@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "fhdoc"
+version = "2020"
+description = "Python docstring-based documentation generator for lazy perfectionists"
+authors = ["FredHappyface"]
+classifiers = [
+	"Environment :: Console",
+	"Environment :: MacOS X",
+	"Environment :: Win32 (MS Windows)",
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Education",
+	"License :: OSI Approved :: MIT License",
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Topic :: Utilities"
+]
+homepage = "https://github.com/FHPythonUtils/FHMake"
+repository = "https://github.com/FHPythonUtils/FHMake"
+documentation = "https://github.com/FHPythonUtils/FHMake/blob/master/README.md"
+readme = "README.md"
+
+[tool.poetry.scripts]
+fhmake = 'fhmake:cli'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
