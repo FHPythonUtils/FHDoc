@@ -12,6 +12,7 @@
 
 # 🙌 FHDoc - Python documentation generator
 
+<img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
 
 Python docstring-based documentation generator for lazy perfectionists.
@@ -24,7 +25,7 @@ Forked from vemel/handsdown
 	- [Examples](#examples)
 	- [Usage](#usage)
 		- [💻 From command line](#-from-command-line)
-		- [� As a GitHub Pages manager](#-as-a-github-pages-manager)
+		- [📝 As a GitHub Pages manager](#-as-a-github-pages-manager)
 		- [🐏 Deploy on Read the Docs](#-deploy-on-read-the-docs)
 		- [📋 Build static HTML](#-build-static-html)
 		- [🧩 As a module](#-as-a-module)
