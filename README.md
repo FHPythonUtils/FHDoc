@@ -1,16 +1,15 @@
 [![GitHub top language](https://img.shields.io/github/languages/top/FHPythonUtils/FHDoc.svg?style=for-the-badge)](../../)
-[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual|gh/FHPythonUtils/FHDoc)
 [![Repository size](https://img.shields.io/github/repo-size/FHPythonUtils/FHDoc.svg?style=for-the-badge)](../../)
 [![Issues](https://img.shields.io/github/issues/FHPythonUtils/FHDoc.svg?style=for-the-badge)](../../issues)
 [![License](https://img.shields.io/github/license/FHPythonUtils/FHDoc.svg?style=for-the-badge)](/LICENSE.md)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/FHPythonUtils/FHDoc.svg?style=for-the-badge)](../../commits/master)
 [![Last commit](https://img.shields.io/github/last-commit/FHPythonUtils/FHDoc.svg?style=for-the-badge)](../../commits/master)
-[![PyPI Downloads](https://img.shields.io/pypi/dm/fhdoc.svg?style=for-the-badge)](https://pypi.org/project/fhdoc/)
-[![PyPI Version](https://img.shields.io/pypi/v/fhdoc.svg?style=for-the-badge)](https://pypi.org/project/fhdoc/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/fhdoc.svg?style=for-the-badge)](https://pypistats.org/packages/fhdoc)
+[![PyPI Total Downloads](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=total%20downloads&query=%24.total_downloads&url=https%3A%2F%2Fapi.pepy.tech%2Fapi%2Fprojects%2Ffhdoc)](https://pepy.tech/project/fhdoc)
+[![PyPI Version](https://img.shields.io/pypi/v/fhdoc.svg?style=for-the-badge)](https://pypi.org/project/fhdoc)
 
-
-
-# 🙌 FHDoc - Python documentation generator
+<!-- omit in TOC -->
+# FHDoc - Python documentation generator
 
 <img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
@@ -19,26 +18,41 @@ Python docstring-based documentation generator for lazy perfectionists.
 
 Forked from vemel/handsdown
 
-- [🙌 FHDoc - Python documentation generator](#-fhdoc---python-documentation-generator)
-	- [Features](#features)
-	- [Do you need fhdoc?](#do-you-need-fhdoc)
-	- [Examples](#examples)
-	- [Usage](#usage)
-		- [💻 From command line](#-from-command-line)
-		- [📝 As a GitHub Pages manager](#-as-a-github-pages-manager)
-		- [🐏 Deploy on Read the Docs](#-deploy-on-read-the-docs)
-		- [📋 Build static HTML](#-build-static-html)
-		- [🧩 As a module](#-as-a-module)
-	- [Installation](#installation)
-	- [Development](#development)
-	- [Community Files](#community-files)
-		- [Licence](#licence)
-		- [Changelog](#changelog)
-		- [Code of Conduct](#code-of-conduct)
-		- [Contributing](#contributing)
-		- [Security](#security)
-		- [Support](#support)
-		- [Rationale](#rationale)
+- [Features](#features)
+- [Do you need fhdoc?](#do-you-need-fhdoc)
+- [Examples](#examples)
+- [Using](#using)
+	- [From command line](#from-command-line)
+	- [As a GitHub Pages manager](#as-a-github-pages-manager)
+	- [Deploy on Read the Docs](#deploy-on-read-the-docs)
+	- [Build static HTML](#build-static-html)
+	- [As a module](#as-a-module)
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [Install With PIP](#install-with-pip)
+- [Language information](#language-information)
+	- [Built for](#built-for)
+- [Install Python on Windows](#install-python-on-windows)
+	- [Chocolatey](#chocolatey)
+	- [Download](#download)
+- [Install Python on Linux](#install-python-on-linux)
+	- [Apt](#apt)
+- [How to run](#how-to-run)
+	- [With VSCode](#with-vscode)
+	- [From the Terminal](#from-the-terminal)
+- [Download Project](#download-project)
+	- [Clone](#clone)
+		- [Using The Command Line](#using-the-command-line)
+		- [Using GitHub Desktop](#using-github-desktop)
+	- [Download Zip File](#download-zip-file)
+- [Community Files](#community-files)
+	- [Licence](#licence)
+	- [Changelog](#changelog)
+	- [Code of Conduct](#code-of-conduct)
+	- [Contributing](#contributing)
+	- [Security](#security)
+	- [Support](#support)
+	- [Rationale](#rationale)
 
 ## Features
 
@@ -86,9 +100,9 @@ And probably *do not* if you:
 - [Type annotations](https://github.com/FHPythonUtils/fhdoc/blob/master/examples/typed.py) with [generated output](https://github.com/FHPythonUtils/fhdoc/tree/master/DOCS/examples/typed.md)
 - [Comment-style type annotations](https://github.com/FHPythonUtils/fhdoc/blob/master/examples/comment_typed.py) with [generated output](https://github.com/FHPythonUtils/fhdoc/tree/master/DOCS/examples/comment_typed.md)
 
-## Usage
+## Using
 
-### 💻 From command line
+### From command line
 
 Just go to your favorite project that has lots of docstrings but missing
 auto-generated docs and let `fhdoc` do the thing.
@@ -111,7 +125,7 @@ fhdoc --external `git config --get remote.origin.url` -n ProjectName
 
 Navigate to `DOCS/README.md` to check your new documentation!
 
-### 📝 As a GitHub Pages manager
+### As a GitHub Pages manager
 
 With `--external` CLI flag, `fhdoc` generates all required configuration
 for [GitHub Pages](https://pages.github.com/), so you just need to setup your
@@ -144,7 +158,7 @@ generate docs to another folder
 fhdoc -o docs_local
 ```
 
-### 🐏 Deploy on Read the Docs
+### Deploy on Read the Docs
 
 With `--external` CLI flag, `fhdoc` generates all required configuration
 for [Read the Docs](https://readthedocs.org/), so you just need to to add your
@@ -167,7 +181,7 @@ fhdoc --external https://github.com/<user>/<project>/blob/master/
 
 All set! You can change `.readthedocs.yml` and `mkdocs.yml` to add your own touch.
 
-### 📋 Build static HTML
+### Build static HTML
 
 ```bash
 # Generate documentation that points to master branch
@@ -179,7 +193,7 @@ fhdoc --external `git config --get remote.origin.url`
 mkdocs build
 ```
 
-### 🧩 As a module
+### As a module
 
 ```python
 from fhdoc.generator import Generator
@@ -222,16 +236,80 @@ Install using `pip` from PyPI
 pip install fhdoc
 ```
 
+## Documentation
+See the [Docs](/DOCS/README.md) for more information.
 
-## Development
+## Install With PIP
+```python
+pip install fhdoc
+```
 
-- Install [pipenv](https://pypi.org/project/pipenv/)
-- Run `pipenv install -d`
-- Use `black` formatter in your IDE
+Head to https://pypi.org/project/fhdoc/ for more info
+
+## Language information
+### Built for
+This program has been written for Python 3 and has been tested with
+Python version 3.9.0 <https://www.python.org/downloads/release/python-380/>.
+
+## Install Python on Windows
+### Chocolatey
+```powershell
+choco install python
+```
+### Download
+To install Python, go to <https://www.python.org/> and download the latest
+version.
+
+## Install Python on Linux
+### Apt
+```bash
+sudo apt install python3.9
+```
+
+## How to run
+### With VSCode
+1. Open the .py file in vscode
+2. Ensure a python 3.9 interpreter is selected (Ctrl+Shift+P > Python:Select
+Interpreter > Python 3.9)
+3. Run by pressing Ctrl+F5 (if you are prompted to install any modules, accept)
+### From the Terminal
+```bash
+./[file].py
+```
+
+## Download Project
+### Clone
+#### Using The Command Line
+1. Press the Clone or download button in the top right
+2. Copy the URL (link)
+3. Open the command line and change directory to where you wish to
+clone to
+4. Type 'git clone' followed by URL in step 2
+```bash
+$ git clone https://github.com/FHPythonUtils/FHDoc
+```
+
+More information can be found at
+<https://help.github.com/en/articles/cloning-a-repository>
+
+#### Using GitHub Desktop
+1. Press the Clone or download button in the top right
+2. Click open in desktop
+3. Choose the path for where you want and click Clone
+
+More information can be found at
+<https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop>
+
+### Download Zip File
+
+1. Download this GitHub repository
+2. Extract the zip archive
+3. Copy/ move to the desired location
 
 ## Community Files
 ### Licence
 MIT License
+Copyright (c) FredHappyface
 (See the [LICENSE](/LICENSE.md) for more information.)
 
 ### Changelog
