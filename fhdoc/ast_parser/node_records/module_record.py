@@ -1,19 +1,19 @@
 """
 Wrapper for an `ast.Module` node with corresponding node info.
 """
+import ast
 from pathlib import Path
-from typing import List, Text, Generator, Any, Optional, Dict
+from typing import Any, Dict, Generator, List, Optional, Text
 
 from fhdoc.ast_parser.analyzers.module_analyzer import ModuleAnalyzer
-from fhdoc.ast_parser.node_records.node_record import NodeRecord
-from fhdoc.utils.indent_trimmer import IndentTrimmer
-from fhdoc.utils.import_string import ImportString
 from fhdoc.ast_parser.enums import RenderPart
-from fhdoc.ast_parser.node_records.import_record import ImportRecord
-from fhdoc.ast_parser.node_records.function_record import FunctionRecord
-from fhdoc.ast_parser.node_records.class_record import ClassRecord
 from fhdoc.ast_parser.node_records.attribute_record import AttributeRecord
-import ast
+from fhdoc.ast_parser.node_records.class_record import ClassRecord
+from fhdoc.ast_parser.node_records.function_record import FunctionRecord
+from fhdoc.ast_parser.node_records.import_record import ImportRecord
+from fhdoc.ast_parser.node_records.node_record import NodeRecord
+from fhdoc.utils.import_string import ImportString
+from fhdoc.utils.indent_trimmer import IndentTrimmer
 
 
 class ModuleRecord(NodeRecord):
@@ -25,20 +25,19 @@ class ModuleRecord(NodeRecord):
 	Arguments:
 		node -- Result of `ast.parse`.
 	"""
-
 	def __init__(self, node):
 		# type: (ast.Module) -> None
 		super(ModuleRecord, self).__init__(node)
-		self.all_names = []  # type: List[Text]
-		self.class_records = []  # type: List[ClassRecord]
-		self.function_records = []  # type: List[FunctionRecord]
-		self.import_records = []  # type: List[ImportRecord]
+		self.all_names = [] # type: List[Text]
+		self.class_records = [] # type: List[ClassRecord]
+		self.function_records = [] # type: List[FunctionRecord]
+		self.import_records = [] # type: List[ImportRecord]
 		self.source_path = Path("")
-		self.source_lines = []  # type: List[Text]
+		self.source_lines = [] # type: List[Text]
 		self.name = "module"
 		self.title = ""
 		self.import_string = ImportString("")
-		self.import_string_map = {}  # type: Dict[ImportString, NodeRecord]
+		self.import_string_map = {} # type: Dict[ImportString, NodeRecord]
 		self.docstring = self._get_docstring()
 
 	@classmethod
@@ -54,7 +53,7 @@ class ModuleRecord(NodeRecord):
 		Returns:
 			New `ModuleRecord` instance.
 		"""
-		content = source_path.read_text()
+		content = source_path.read_text(encoding="utf-8")
 		node = ast.parse(content)
 		if not isinstance(node, ast.Module):
 			raise TypeError
@@ -62,7 +61,7 @@ class ModuleRecord(NodeRecord):
 		record.import_string = import_string
 		record.name = import_string.parts[-1]
 		record.source_path = source_path
-		record.source_lines = source_path.read_text().split("\n")
+		record.source_lines = source_path.read_text(encoding="utf-8").split("\n")
 		return record
 
 	def find_record(self, import_string):
@@ -115,13 +114,11 @@ class ModuleRecord(NodeRecord):
 			self.import_string_map[class_record.import_string] = class_record
 
 			for class_child_record in class_record.iter_records():
-				class_child_record.import_string = (
-					class_record.import_string + class_child_record.name
-				)
+				class_child_record.import_string = (class_record.import_string
+				+ class_child_record.name)
 
 				self.import_string_map[
-					class_child_record.import_string
-				] = class_child_record
+				class_child_record.import_string] = class_child_record
 
 		for function_record in self.function_records:
 			function_record.import_string = self.import_string + function_record.name
@@ -133,7 +130,7 @@ class ModuleRecord(NodeRecord):
 
 	def _render_parts(self, indent=0):
 		# type: (int) -> List[Any]
-		parts = []  # type: List[Any]
+		parts = [] # type: List[Any]
 		if self.import_records:
 			for import_record in self.import_records:
 				parts.append(import_record)
@@ -196,20 +193,16 @@ class ModuleRecord(NodeRecord):
 		for class_record in self.class_records:
 			class_record.parse()
 			for attribute_record in class_record.attribute_records:
-				attribute_record.docstring = self._get_comment_docstring(
-					attribute_record
-				)
+				attribute_record.docstring = self._get_comment_docstring(attribute_record)
 
 			for method_record in class_record.method_records:
 				method_record.parse()
 				if method_record.is_classmethod or method_record.is_staticmethod:
-					method_record.title = "{}.{}".format(
-						class_record.name, method_record.name
-					)
+					method_record.title = "{}.{}".format(class_record.name,
+					method_record.name)
 				else:
-					method_record.title = "{}().{}".format(
-						class_record.name, method_record.name
-					)
+					method_record.title = "{}().{}".format(class_record.name,
+					method_record.name)
 				function_lines = self._get_function_def_lines(method_record)
 				method_record.parse_type_comments(function_lines)
 
@@ -232,10 +225,11 @@ class ModuleRecord(NodeRecord):
 		Returns:
 			Function definition lines as an array.
 		"""
-		if not isinstance(function_record.node, (ast.AsyncFunctionDef, ast.FunctionDef)):
+		if not isinstance(function_record.node,
+		(ast.AsyncFunctionDef, ast.FunctionDef)):
 			raise TypeError
 
-		result = []  # type: List[Text]
+		result = [] # type: List[Text]
 		start_index = function_record.line_number - 1
 		end_index = function_record.node.body[0].lineno - 1
 		result = self.source_lines[start_index:end_index]
@@ -259,7 +253,7 @@ class ModuleRecord(NodeRecord):
 		if not isinstance(node_record.node, ast.Assign):
 			raise TypeError
 
-		result = []  # type: List[Text]
+		result = [] # type: List[Text]
 		start_index = node_record.node.lineno - 2
 
 		try:

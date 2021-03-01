@@ -7,13 +7,11 @@ from fhdoc.processors.pep257 import PEP257DocstringProcessor
 
 class TestLoader(unittest.TestCase):
 	def test_init(self):
-		pep257_docstring = (
-			Path(__file__).parent.parent / "static" / "pep257_docstring.txt"
-		).read_text()
+		pep257_docstring = (Path(__file__).parent.parent / "static"
+		/ "pep257_docstring.txt").read_text(encoding="utf-8")
 		processor = PEP257DocstringProcessor()
 		sections = processor.build_sections(pep257_docstring)
 		self.assertEqual(sections[""].title, "")
-		self.assertEqual(
-			sections[""].render(),
-			"Summary line.\n\nExtended description of method.\n\n",
-		)
+		self.assertEqual(sections[""].render(),
+		"Summary line.\n\nExtended description of method.\n\n",
+																		)

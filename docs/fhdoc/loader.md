@@ -37,7 +37,7 @@ my_module_utils = loader.import_module('my_module.utils')
 
 ### Loader().get_import_string
 
-[[find in source code]](../../fhdoc/loader.py#L132)
+[[find in source code]](../../fhdoc/loader.py#L126)
 
 ```python
 def get_import_string(source_path: Path) -> Text:
@@ -66,7 +66,7 @@ A Python import string.
 
 ### Loader().get_module_record
 
-[[find in source code]](../../fhdoc/loader.py#L65)
+[[find in source code]](../../fhdoc/loader.py#L64)
 
 ```python
 def get_module_record(source_path: Path) -> Optional[ModuleRecord]:
@@ -92,7 +92,7 @@ A new `ModuleRecord` instance or None if there is ntohing to import.
 
 ### Loader().get_output_path
 
-[[find in source code]](../../fhdoc/loader.py#L44)
+[[find in source code]](../../fhdoc/loader.py#L43)
 
 ```python
 def get_output_path(source_path: Path) -> Path:
@@ -110,7 +110,7 @@ A path to the output `.md` file even if it does not exist yet.
 
 ### Loader.parse_module_record
 
-[[find in source code]](../../fhdoc/loader.py#L114)
+[[find in source code]](../../fhdoc/loader.py#L111)
 
 ```python
 @staticmethod

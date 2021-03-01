@@ -2,6 +2,10 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
+## 2021 - 2021/03/01
+- Fix UnicodeDecodeError
+
+
 ## 2020.2.1/2/3 - 2020/10/15
 - Pypi links now point to the right place
 - run from cli

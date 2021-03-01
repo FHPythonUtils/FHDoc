@@ -11,10 +11,9 @@ from fhdoc.utils import extract_md_title
 from fhdoc.utils.indent_trimmer import IndentTrimmer
 from fhdoc.utils.path_finder import PathFinder
 
-if TYPE_CHECKING:  # pragma: no cover
+if TYPE_CHECKING: # pragma: no cover
 	from pathlib import Path
 	from types import TracebackType
-
 
 __all__ = ["MDDocument"]
 
@@ -35,7 +34,7 @@ class MDDocument(object):
 		md_doc.write()
 
 		# output is indented for readability
-		Path('output.md').read_text()
+		Path('output.md').read_text(encoding="utf-8")
 		'''# My doc
 
 		- [My doc](#my-doc)
@@ -64,7 +63,7 @@ class MDDocument(object):
 
 	def __init__(self, path):
 		# type: (Path) -> None
-		self._sections = []  # type: List[Text]
+		self._sections = [] # type: List[Text]
 		self._content = ""
 		self._title = ""
 		self._subtitle = ""
@@ -76,12 +75,10 @@ class MDDocument(object):
 		# type: () -> MDDocument
 		return self
 
-	def __exit__(
-		self,
-		exc_type,  # type: Optional[Type[BaseException]]
-		exc_value,  # type: Optional[BaseException]
-		tb,  # type: Optional[TracebackType]
-	):
+	def __exit__(self, exc_type, # type: Optional[Type[BaseException]]
+	exc_value, # type: Optional[BaseException]
+	tb, # type: Optional[TracebackType]
+													):
 		# type: (...) -> None
 		if exc_value:
 			traceback.print_tb(tb)
@@ -120,11 +117,8 @@ class MDDocument(object):
 			self._sections.append(section)
 
 		# extract subtitle from the first section if it is not a title
-		if (
-			not self._subtitle
-			and self._sections
-			and not self._sections[0].startswith("#")
-		):
+		if (not self._subtitle and self._sections
+		and not self._sections[0].startswith("#")):
 			self._subtitle = self._sections.pop(0)
 
 	def add_toc_if_not_exists(self):
@@ -201,11 +195,10 @@ class MDDocument(object):
 		Returns:
 			A string with Markdown link.
 		"""
-		return self.render_doc_link(
-			title=title or target_md_document.title,
-			anchor=self.get_anchor(target_md_document.title),
-			target_path=target_md_document.path,
-		)
+		return self.render_doc_link(title=title or target_md_document.title,
+		anchor=self.get_anchor(target_md_document.title),
+		target_path=target_md_document.path,
+																													)
 
 	def render_doc_link(self, title, anchor="", target_path=None):
 		# type: (Text, Text, Optional[Path]) -> Text

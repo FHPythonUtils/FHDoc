@@ -34,7 +34,7 @@ Responsible for parsing Python source as well.
 
 ### ModuleRecord().build_children
 
-[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L153)
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L150)
 
 ```python
 def build_children() -> None:
@@ -46,7 +46,7 @@ Used only when doc for this ModuleRecord is building.
 
 ### ModuleRecord.create_from_source
 
-[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L44)
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L43)
 
 ```python
 @classmethod
@@ -73,7 +73,7 @@ New [ModuleRecord](#modulerecord) instance.
 
 ### ModuleRecord().find_record
 
-[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L68)
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L67)
 
 ```python
 def find_record(import_string: ImportString) -> Optional[NodeRecord]:
@@ -96,7 +96,7 @@ Found child record on None.
 
 ### ModuleRecord().iter_records
 
-[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L88)
+[[find in source code]](../../../../fhdoc/ast_parser/node_records/module_record.py#L87)
 
 ```python
 def iter_records() -> Generator[NodeRecord, None, None]:

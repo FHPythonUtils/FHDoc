@@ -71,7 +71,7 @@ def render_asset(name, target_path, format_dict):
 		target_path -- Path of output file.
 		format_dict -- Format asset with values from the dict before writing.
 	"""
-	content = (Path(ASSETS_PATH) / name).read_text()
+	content = (Path(ASSETS_PATH) / name).read_text(encoding="utf-8")
 	content = content.format(**format_dict)
 	target_path.write_text(content)
 

@@ -29,7 +29,7 @@ Markdown file builder.
 
 ## MDDocument
 
-[[find in source code]](../../fhdoc/md_document.py#L22)
+[[find in source code]](../../fhdoc/md_document.py#L21)
 
 ```python
 class MDDocument(object):
@@ -51,7 +51,7 @@ md_doc.add_toc_if_not_exists()
 md_doc.write()
 
 # output is indented for readability
-Path('output.md').read_text()
+Path('output.md').read_text(encoding="utf-8")
 '''# My doc
 
 - [My doc](#my-doc)
@@ -78,7 +78,7 @@ with MDDocument(path=Path('output.md')) as md_document:
 
 ### MDDocument().add_toc_if_not_exists
 
-[[find in source code]](../../fhdoc/md_document.py#L130)
+[[find in source code]](../../fhdoc/md_document.py#L124)
 
 ```python
 def add_toc_if_not_exists() -> None:
@@ -88,7 +88,7 @@ Check if ToC exists in the document or create one.
 
 ### MDDocument().append
 
-[[find in source code]](../../fhdoc/md_document.py#L328)
+[[find in source code]](../../fhdoc/md_document.py#L321)
 
 ```python
 def append(content: Text) -> None:
@@ -104,7 +104,7 @@ Handle trimming and sectioning the content and update
 
 ### MDDocument().append_title
 
-[[find in source code]](../../fhdoc/md_document.py#L349)
+[[find in source code]](../../fhdoc/md_document.py#L342)
 
 ```python
 def append_title(title: Text, level: int) -> None:
@@ -121,7 +121,7 @@ Handle trimming and sectioning the content and update
 
 ### MDDocument().generate_toc_section
 
-[[find in source code]](../../fhdoc/md_document.py#L364)
+[[find in source code]](../../fhdoc/md_document.py#L357)
 
 ```python
 def generate_toc_section(max_depth: int = 3) -> Text:
@@ -139,7 +139,7 @@ A string with ToC.
 
 ### MDDocument.get_anchor
 
-[[find in source code]](../../fhdoc/md_document.py#L138)
+[[find in source code]](../../fhdoc/md_document.py#L132)
 
 ```python
 @classmethod
@@ -154,7 +154,7 @@ A test of anchor link.
 
 ### MDDocument.get_toc_line
 
-[[find in source code]](../../fhdoc/md_document.py#L412)
+[[find in source code]](../../fhdoc/md_document.py#L405)
 
 ```python
 @classmethod
@@ -174,7 +174,7 @@ Ready to insert ToC line.
 
 ### MDDocument.is_toc
 
-[[find in source code]](../../fhdoc/md_document.py#L151)
+[[find in source code]](../../fhdoc/md_document.py#L145)
 
 ```python
 @staticmethod
@@ -189,7 +189,7 @@ True the section is ToC.
 
 ### MDDocument().path
 
-[[find in source code]](../../fhdoc/md_document.py#L320)
+[[find in source code]](../../fhdoc/md_document.py#L313)
 
 ```python
 @property
@@ -200,7 +200,7 @@ Output path of the document.
 
 ### MDDocument().read
 
-[[find in source code]](../../fhdoc/md_document.py#L91)
+[[find in source code]](../../fhdoc/md_document.py#L88)
 
 ```python
 def read(source_path: Optional[Path] = None) -> None:
@@ -214,7 +214,7 @@ Read and parse content from `source_path`.
 
 ### MDDocument().render_doc_link
 
-[[find in source code]](../../fhdoc/md_document.py#L210)
+[[find in source code]](../../fhdoc/md_document.py#L203)
 
 ```python
 def render_doc_link(
@@ -255,7 +255,7 @@ A string with Markdown link.
 
 ### MDDocument.render_link
 
-[[find in source code]](../../fhdoc/md_document.py#L169)
+[[find in source code]](../../fhdoc/md_document.py#L163)
 
 ```python
 @classmethod
@@ -285,7 +285,7 @@ A string with Markdown link.
 
 ### MDDocument().render_md_doc_link
 
-[[find in source code]](../../fhdoc/md_document.py#L192)
+[[find in source code]](../../fhdoc/md_document.py#L186)
 
 ```python
 def render_md_doc_link(
@@ -307,7 +307,7 @@ A string with Markdown link.
 
 ### MDDocument().sections
 
-[[find in source code]](../../fhdoc/md_document.py#L312)
+[[find in source code]](../../fhdoc/md_document.py#L305)
 
 ```python
 @property
@@ -318,7 +318,7 @@ All non-special `sections` of the document.
 
 ### MDDocument().subtitle
 
-[[find in source code]](../../fhdoc/md_document.py#L284)
+[[find in source code]](../../fhdoc/md_document.py#L277)
 
 ```python
 @property
@@ -329,7 +329,7 @@ def subtitle() -> Text:
 
 ### MDDocument().subtitle
 
-[[find in source code]](../../fhdoc/md_document.py#L292)
+[[find in source code]](../../fhdoc/md_document.py#L285)
 
 ```python
 @subtitle.setter
@@ -338,7 +338,7 @@ def subtitle(subtitle: Text) -> None:
 
 ### MDDocument().title
 
-[[find in source code]](../../fhdoc/md_document.py#L270)
+[[find in source code]](../../fhdoc/md_document.py#L263)
 
 ```python
 @property
@@ -349,7 +349,7 @@ def title() -> Text:
 
 ### MDDocument().title
 
-[[find in source code]](../../fhdoc/md_document.py#L278)
+[[find in source code]](../../fhdoc/md_document.py#L271)
 
 ```python
 @title.setter
@@ -358,7 +358,7 @@ def title(title: Text) -> None:
 
 ### MDDocument().toc_section
 
-[[find in source code]](../../fhdoc/md_document.py#L298)
+[[find in source code]](../../fhdoc/md_document.py#L291)
 
 ```python
 @property
@@ -369,7 +369,7 @@ Document Tree of Contents section or an empty line.
 
 ### MDDocument().toc_section
 
-[[find in source code]](../../fhdoc/md_document.py#L306)
+[[find in source code]](../../fhdoc/md_document.py#L299)
 
 ```python
 @toc_section.setter
@@ -378,7 +378,7 @@ def toc_section(toc_section: Text) -> None:
 
 ### MDDocument().write
 
-[[find in source code]](../../fhdoc/md_document.py#L261)
+[[find in source code]](../../fhdoc/md_document.py#L254)
 
 ```python
 def write() -> None:

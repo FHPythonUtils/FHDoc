@@ -2,15 +2,15 @@
 Loader for python source code.
 """
 
-from typing import Optional, Text, TYPE_CHECKING
+from typing import TYPE_CHECKING, Optional, Text
 
 from fhdoc.ast_parser.node_records.module_record import ModuleRecord
 from fhdoc.utils import extract_md_title
-from fhdoc.utils.path_finder import PathFinder
-from fhdoc.utils.logger import get_logger
 from fhdoc.utils.import_string import ImportString
+from fhdoc.utils.logger import get_logger
+from fhdoc.utils.path_finder import PathFinder
 
-if TYPE_CHECKING:  # pragma: no cover
+if TYPE_CHECKING: # pragma: no cover
 	from pathlib import Path
 
 
@@ -33,7 +33,6 @@ class Loader:
 		root_path -- Root path of the project.
 		output_path -- Docs output path.
 	"""
-
 	def __init__(self, root_path, output_path):
 		# type: (Path, Path) -> None
 		self._logger = get_logger()
@@ -86,14 +85,12 @@ class Loader:
 		docstring_parts = []
 
 		try:
-			module_record = ModuleRecord.create_from_source(
-				source_path, ImportString(import_string)
-			)
+			module_record = ModuleRecord.create_from_source(source_path,
+			ImportString(import_string))
 			module_record.build_children()
 		except Exception as e:
-			raise LoaderError(
-				"{} while loading {}: {}".format(e.__class__.__name__, source_path, e)
-			)
+			raise LoaderError("{} while loading {}: {}".format(e.__class__.__name__,
+			source_path, e))
 
 		if module_record.docstring:
 			docstring_parts.append(module_record.docstring)
@@ -101,7 +98,7 @@ class Loader:
 		if source_path.name == "__init__.py":
 			readme_md_path = source_path.parent / "README.md"
 			if readme_md_path.exists():
-				docstring_parts.append(readme_md_path.read_text())
+				docstring_parts.append(readme_md_path.read_text(encoding="utf-8"))
 
 		docstring = "\n\n".join(docstring_parts)
 		title, docstring = extract_md_title(docstring)
@@ -123,11 +120,8 @@ class Loader:
 		try:
 			module_record.parse()
 		except Exception as e:
-			raise LoaderError(
-				"{} while parsing {}: {}".format(
-					e.__class__.__name__, module_record.source_path, e
-				)
-			)
+			raise LoaderError("{} while parsing {}: {}"
+			.format(e.__class__.__name__, module_record.source_path, e))
 
 	def get_import_string(self, source_path):
 		# type: (Path) -> Text
